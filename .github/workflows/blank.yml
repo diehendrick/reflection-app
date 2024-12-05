@@ -1,11 +1,9 @@
-name: Token Tinker
-  # You may pin to the exact commit or the version.
-  # uses: Design-System-Pro/token-tinker@7e2714a593f6f8facbaa3894327b2fbe6e502b9e
+- name: Token Tinker
   uses: Design-System-Pro/token-tinker@0.1.0-next.0
   with:
-    # Path to the tokens json files. Defaults to ./tokens/
+    # Path to the tokens JSON files (relative to the root of your repository)
     tokens-path: ./tokens/
-    # Path to output the transformed tokens. Defaults to ./build/
+    # Path to output the transformed tokens (relative to the root of your repository)
     build-path: ./build/
-    # Type of Tokens Studio export: "single" for single file or "multiple" for multiple files.
+    # Specify the export type: "single" for one file, "multiple" for multiple files
     tokens-export-type: multiple
