@@ -37,3 +37,7 @@ jobs:
         with:
           name: transformed-tokens
           path: build/
+      
+      - name: List files in the repository root
+      run: ls -la
+
