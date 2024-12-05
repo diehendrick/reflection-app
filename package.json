@@ -1,18 +1,14 @@
-"scripts": {
-    "build": "style-dictionary build --config path/to/config.js"
-}
-
-
 {
-    "name": "design-token-transformer",
-    "version": "1.0.0",
-    "main": "style-dictionary.config.js",
-    "scripts": {
-        "build": "style-dictionary build"
-    },
-    "dependencies": {
-        "style-dictionary": "^3.0.0",
-        "tinycolor2": "^1.4.2",
-        "mathjs": "^11.7.0"
-    }
+  "name": "design-token-transformer",
+  "version": "1.0.0",
+  "description": "Transforms design tokens into SCSS",
+  "main": "style-dictionary.config.js",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.0.0",
+    "tinycolor2": "^1.4.2",
+    "mathjs": "^11.7.0"
+  }
 }
