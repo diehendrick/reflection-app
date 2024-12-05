@@ -1,3 +1,8 @@
+"scripts": {
+    "build": "style-dictionary build --config path/to/config.js"
+}
+
+
 {
     "name": "design-token-transformer",
     "version": "1.0.0",
