@@ -14,7 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Run Token Tinker to Transform Tokens
+      # Step 2: Create the 'scss' folder (to ensure it exists)
+      - name: Create SCSS Folder
+        run: mkdir -p scss
+
+      # Step 3: Run Token Tinker to Transform Tokens
       - name: Token Tinker
         uses: Design-System-Pro/token-tinker@0.1.0-next.2
         with:
