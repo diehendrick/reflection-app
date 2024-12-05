@@ -1,0 +1,69 @@
+{
+  "spacing": {
+    "xxxs": {
+      "value": "2",
+      "description": "main value",
+      "type": "spacing"
+    },
+    "xxs": {
+      "value": "{spacing.xxxs} + 2",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "{spacing.xxs} + 2",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "{spacing.xs} + 2",
+      "type": "spacing"
+    },
+    "smd": {
+      "value": "{spacing.sm} + 4",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "{spacing.smd} + 4",
+      "type": "spacing"
+    },
+    "mdl": {
+      "value": "{spacing.md} + 4",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "{spacing.mdl} + 4",
+      "type": "spacing"
+    },
+    "xlg": {
+      "value": "{spacing.lg} + 4",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "{spacing.xlg} + 4",
+      "type": "spacing"
+    },
+    "xxl": {
+      "value": "{spacing.xl} + 4",
+      "type": "spacing"
+    },
+    "xxxl": {
+      "value": "{spacing.xxl} + 4",
+      "type": "spacing"
+    },
+    "4xl": {
+      "value": "{spacing.xxxl} + 8",
+      "type": "spacing"
+    },
+    "5xl": {
+      "value": "{spacing.4xl} + 16",
+      "type": "spacing"
+    },
+    "6xl": {
+      "value": "{spacing.5xl} + 32",
+      "type": "spacing"
+    },
+    "7xl": {
+      "value": "{spacing.6xl} + 32",
+      "type": "spacing"
+    }
+  }
+}

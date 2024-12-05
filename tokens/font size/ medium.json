@@ -1,0 +1,114 @@
+{
+  "fontSize": {
+    "xxxsm": {
+      "value": "10",
+      "type": "fontSizes"
+    },
+    "xxsm": {
+      "value": "12",
+      "type": "fontSizes"
+    },
+    "xsm": {
+      "value": "{fontSize.xxsm} + 2",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "{fontSize.xsm} + 2",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "{fontSize.sm} + 2",
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": "{fontSize.md} + 2",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "{fontSize.lg} + 2",
+      "type": "fontSizes"
+    },
+    "xxl": {
+      "value": "{fontSize.xl} + 4",
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "{fontSize.xxl} + 2",
+      "type": "fontSizes"
+    },
+    "3xlAlt": {
+      "value": "{fontSize.xxl} + 8",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "{fontSize.3xl} + {fontSize.xxsm}",
+      "type": "fontSizes"
+    },
+    "5xl": {
+      "value": "{fontSize.4xl} + 6",
+      "type": "fontSizes"
+    },
+    "6xl": {
+      "value": "{fontSize.5xl} + 22",
+      "type": "fontSizes"
+    }
+  },
+  "lineHeights": {
+    "xxxsm": {
+      "value": "16",
+      "type": "lineHeights"
+    },
+    "xxsm": {
+      "value": "{lineHeights.xxxsm} + 2",
+      "type": "lineHeights"
+    },
+    "xsm": {
+      "value": "{lineHeights.xxsm} + 2",
+      "type": "lineHeights"
+    },
+    "sm": {
+      "value": "{lineHeights.xsm} + 2",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "{lineHeights.sm} + 2",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "{lineHeights.md} + 2",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "{lineHeights.lg} + 2",
+      "type": "lineHeights"
+    },
+    "xxl": {
+      "value": "{lineHeights.xl} + 2",
+      "type": "lineHeights"
+    },
+    "3xl": {
+      "value": "{lineHeights.xxl} + 2",
+      "type": "lineHeights"
+    },
+    "4xl": {
+      "value": "{lineHeights.3xl} + 2",
+      "type": "lineHeights"
+    },
+    "5xl": {
+      "value": "{lineHeights.4xl} + 2",
+      "type": "lineHeights"
+    },
+    "6xl": {
+      "value": "{lineHeights.5xl} + 10",
+      "type": "lineHeights"
+    },
+    "7xl": {
+      "value": "{lineHeights.5xl} + {lineHeights.xxsm} + 2",
+      "type": "lineHeights"
+    },
+    "8xl": {
+      "value": "{lineHeights.7xl} + {lineHeights.xl}",
+      "type": "lineHeights"
+    }
+  }
+}

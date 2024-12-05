@@ -1,0 +1,26 @@
+{
+  "tokenSetOrder": [
+    "global",
+    "theme/ light",
+    "theme/ dark",
+    "brands/ brand-1",
+    "brands/ brand-2",
+    "brands/ brand-3",
+    "typography/ modern",
+    "typography/ minimalist",
+    "typography/ creative",
+    "typography/ classic",
+    "font size/ default",
+    "font size/ medium",
+    "font size/ large",
+    "font size/ big",
+    "spacing/ default",
+    "spacing/ medium",
+    "spacing/ large",
+    "spacing/ big",
+    "radii/ default",
+    "radii/ medium",
+    "radii/ large",
+    "radii/ big"
+  ]
+}

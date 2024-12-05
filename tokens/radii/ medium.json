@@ -1,0 +1,37 @@
+{
+  "radi": {
+    "sm": {
+      "value": "4",
+      "description": "baseline",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "{radi.sm} * 2",
+      "type": "borderRadius"
+    },
+    "smd": {
+      "value": "{radi.sm} * 3",
+      "type": "borderRadius"
+    },
+    "mlg": {
+      "value": "{radi.md} * 2",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "{radi.md} + {radi.mlg}",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "{radi.mlg} * 2",
+      "type": "borderRadius"
+    },
+    "xxl": {
+      "value": "{radi.lg} * 2",
+      "type": "borderRadius"
+    },
+    "rounded": {
+      "value": "999",
+      "type": "borderRadius"
+    }
+  }
+}
