@@ -1,0 +1,13 @@
+{
+    "name": "design-token-transformer",
+    "version": "1.0.0",
+    "main": "style-dictionary.config.js",
+    "scripts": {
+        "build": "style-dictionary build"
+    },
+    "dependencies": {
+        "style-dictionary": "^3.0.0",
+        "tinycolor2": "^1.4.2",
+        "mathjs": "^11.7.0"
+    }
+}
