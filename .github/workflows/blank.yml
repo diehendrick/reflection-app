@@ -1,9 +1,23 @@
-- name: Token Tinker
-  uses: Design-System-Pro/token-tinker@0.1.0-next.0
-  with:
-    # Path to the tokens JSON files (relative to the root of your repository)
-    tokens-path: ./tokens/
-    # Path to output the transformed tokens (relative to the root of your repository)
-    build-path: ./build/
-    # Specify the export type: "single" for one file, "multiple" for multiple files
-    tokens-export-type: multiple
+name: Transform Design Tokens
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  transform-tokens:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Token Tinker
+        uses: Design-System-Pro/token-tinker@0.1.0-next.0
+        with:
+          # Path to the tokens JSON files (relative to the root of your repository)
+          tokens-path: ./tokens/
+          # Path to output the transformed tokens (relative to the root of your repository)
+          build-path: ./build/
+          # Specify the export type: "single" for one file, "multiple" for multiple files
+          tokens-export-type: multiple
