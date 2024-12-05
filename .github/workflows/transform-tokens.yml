@@ -1,0 +1,38 @@
+name: Transform Tokens to SCSS
+
+on:
+  push:
+    branches:
+      - main  # Trigger on pushes to the main branch
+
+jobs:
+  process-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Install Node.js and dependencies
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: |
+          npm install style-dictionary figma2flutter --save-dev
+
+      # Step 3: Process tokens with Style Dictionary
+      - name: Transform Tokens to SCSS
+        run: |
+          mkdir -p scss
+          npx style-dictionary build
+
+      # Step 4: Upload transformed SCSS to a folder
+      - name: Save SCSS Output
+        uses: actions/upload-artifact@v3
+        with:
+          name: scss
+          path: scss/
