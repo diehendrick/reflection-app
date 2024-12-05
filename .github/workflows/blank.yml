@@ -1,4 +1,4 @@
-  - name: Token Tinker
+- name: Token Tinker
   # You may pin to the exact commit or the version.
   # uses: Design-System-Pro/token-tinker@7e2714a593f6f8facbaa3894327b2fbe6e502b9e
   uses: Design-System-Pro/token-tinker@0.1.0-next.0
@@ -9,4 +9,3 @@
     build-path: ./build/
     # Type of Tokens Studio export: "single" for single file or "multiple" for multiple files.
     tokens-export-type: multiple
-          
