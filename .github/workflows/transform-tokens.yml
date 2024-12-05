@@ -24,13 +24,19 @@ jobs:
         run: |
           npm install style-dictionary figma2flutter --save-dev
 
-      # Step 3: Process tokens with Style Dictionary
+      # Step 3: Preprocess Tokens
+      - name: Preprocess Tokens
+        run: |
+          mkdir -p processed_tokens
+          npx figma2flutter transform ./tokens/ --output ./processed_tokens/
+
+      # Step 4: Transform Tokens to SCSS
       - name: Transform Tokens to SCSS
         run: |
           mkdir -p scss
           npx style-dictionary build
 
-      # Step 4: Upload transformed SCSS to a folder
+      # Step 5: Upload transformed SCSS to a folder
       - name: Save SCSS Output
         uses: actions/upload-artifact@v3
         with:
