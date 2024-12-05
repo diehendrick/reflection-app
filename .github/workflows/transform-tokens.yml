@@ -1,4 +1,4 @@
-name: Transform Tokens
+name: Transform Tokens by GPT4o
 
 on:
   push:
@@ -30,17 +30,14 @@ jobs:
       - name: List files in the repository root
         run: ls -la
 
+      - name: List files in the tokens directory
+        run: ls -la tokens/
+
       - name: Print config file contents
         run: cat style-dictionary.config.js
 
       - name: Transform tokens
         run: npm run build
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: transformed-tokens
-          path: build/
 
       - name: Clean workspace (if necessary)
         run: git clean -xdf
