@@ -1,4 +1,4 @@
-name: Transform Tokens by GPT4o
+name: Transform Tokens Chat GPT4o
 
 on:
   push:
@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Clean workspace
+        run: git clean -xdf
+
       - name: Install dependencies
         run: npm install
 
@@ -38,6 +41,3 @@ jobs:
 
       - name: Transform tokens
         run: npm run build
-
-      - name: Clean workspace (if necessary)
-        run: git clean -xdf
