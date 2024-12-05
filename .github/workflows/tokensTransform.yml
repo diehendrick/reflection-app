@@ -3,7 +3,7 @@ name: Transform Tokens to SCSS
 on:
   push:
     branches:
-      - main
+      - main  # Trigger workflow on pushes to the main branch
 
 jobs:
   transform-tokens:
@@ -14,19 +14,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Create necessary folders
-      - name: Ensure SCSS Folder Exists
+      # Step 2: Ensure Output Folder Exists
+      # This creates the folder where the transformed tokens will be stored
+      - name: Prepare Output Folder
         run: mkdir -p scss
 
-      # Step 3: Run Token Tinker with Verbose Logging
+      # Step 3: Run Token Tinker to Process Tokens
       - name: Token Tinker
         uses: Design-System-Pro/token-tinker@0.1.0-next.2
         with:
           tokens-path: ./tokens/             # Path to your token files
-          build-path: ./scss/                # Output folder for the transformed files
-          tokens-export-type: multiple       # "single" or "multiple" file output format
-          log.verbosity: verbose             # Enable detailed logging
+          build-path: ./scss/                # Output folder for transformed files
+          tokens-export-type: multiple       # Choose "single" or "multiple" output format
 
-      # Step 4: Check if SCSS Folder Contains Files
-      - name: List SCSS Folder Contents
-        run: ls -al scss
+      # Step 4: Archive Token Tinker Results
+      - name: Archive SCSS Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: scss-results                 # Name of the artifact
+          path: ./scss/                      # Path to archive (matches the build-path)
