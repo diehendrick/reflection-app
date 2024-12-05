@@ -1,0 +1,23 @@
+name: Transform Tokens to SCSS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  transform-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Run Token Tinker to Transform Tokens
+      - name: Token Tinker
+        uses: Design-System-Pro/token-tinker@0.1.0-next.2
+        with:
+          tokens-path: ./tokens/             # Path to your token files
+          build-path: ./scss/                # Output folder for the transformed files
+          tokens-export-type: multiple       # "single" or "multiple" file output format
