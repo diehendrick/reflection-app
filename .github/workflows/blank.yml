@@ -21,3 +21,10 @@ jobs:
           build-path: ./build/
           # Specify the export type: "single" for one file, "multiple" for multiple files
           tokens-export-type: multiple
+      # You can replace where the build goes according to your needs 👇
+      # As an example, you can download it manually from your github action runner.
+      - name: Archive tinker results
+        uses: actions/upload-artifact@v4
+        with:
+          name: result
+          path: build
