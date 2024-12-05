@@ -14,14 +14,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Create the 'scss' folder (to ensure it exists)
-      - name: Create SCSS Folder
+      # Step 2: Create necessary folders
+      - name: Ensure SCSS Folder Exists
         run: mkdir -p scss
 
-      # Step 3: Run Token Tinker to Transform Tokens
+      # Step 3: Run Token Tinker with Verbose Logging
       - name: Token Tinker
         uses: Design-System-Pro/token-tinker@0.1.0-next.2
         with:
           tokens-path: ./tokens/             # Path to your token files
           build-path: ./scss/                # Output folder for the transformed files
           tokens-export-type: multiple       # "single" or "multiple" file output format
+          log.verbosity: verbose             # Enable detailed logging
+
+      # Step 4: Check if SCSS Folder Contains Files
+      - name: List SCSS Folder Contents
+        run: ls -al scss
