@@ -1,4 +1,4 @@
-name: Transform Tokens to SCSS
+name: Transform Tokens to SCSS v1
 
 on:
   push:
