@@ -3849,6 +3849,11 @@
         "description": "can be use for general or text link",
         "type": "color"
       },
+      "primaryNeutral": {
+        "value": "{primary.primary55}",
+        "type": "color",
+        "description": "this color will be the same between light and dark. "
+      },
       "primarySelected": {
         "value": "{primary.primary45}",
         "description": "can be use for general or text link",
@@ -4424,6 +4429,11 @@
       "primary": {
         "value": "{primary.primary55}",
         "type": "color"
+      },
+      "primaryNeutral": {
+        "value": "{primary.primary55}",
+        "type": "color",
+        "description": "this color will be the same between light and dark. "
       },
       "primarySelected": {
         "value": "{primary.primary60}",
