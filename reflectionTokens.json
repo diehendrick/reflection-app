@@ -4160,7 +4160,7 @@
         "type": "color"
       },
       "defaultAlt": {
-        "value": "{textColor.defaultAlt}",
+        "value": "{neutral.neutral45}",
         "type": "color"
       },
       "dark": {
@@ -4203,7 +4203,7 @@
         "type": "color"
       },
       "lightPrimaryAlt": {
-        "value": "{bgColor.lightPrimaryAlt}",
+        "value": "{primary.primary90}",
         "type": "color"
       },
       "primaryDark": {
@@ -4742,7 +4742,7 @@
         "type": "color"
       },
       "defaultAlt": {
-        "value": "{textColor.defaultAlt}",
+        "value": "{neutral.neutral95}",
         "type": "color"
       },
       "dark": {
@@ -4794,7 +4794,7 @@
         "type": "color"
       },
       "lightPrimaryAlt": {
-        "value": "{bgColor.lightPrimaryAlt}",
+        "value": "{primary.primary85}",
         "type": "color"
       },
       "primaryDark": {
