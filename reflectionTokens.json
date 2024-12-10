@@ -4187,7 +4187,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{neutral.neutral75}",
+        "value": "{neutral.neutral90}",
         "type": "color"
       },
       "primary": {
@@ -4764,21 +4764,12 @@
         "type": "color"
       },
       "placeholder": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.6",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{textColor.placeholder}",
-        "description": "\n",
-        "type": "color"
+        "value": "{neutral.neutral55}",
+        "type": "color",
+        "description": "\n"
       },
       "disabled": {
-        "value": "{textColor.disabled}",
+        "value": "{neutral.neutral05}",
         "type": "color"
       },
       "primary": {
@@ -5144,35 +5135,35 @@
     },
     "shadow": {
       "op1": {
-        "value": "{transparentDark.opacity94}",
+        "value": "{transparentDark.opacity10}",
         "type": "color"
       },
       "op2": {
-        "value": "{transparentDark.opacity90}",
+        "value": "{transparentDark.opacity12}",
         "type": "color"
       },
       "op3": {
-        "value": "{transparentDark.opacity88}",
+        "value": "{transparentDark.opacity14}",
         "type": "color"
       },
       "op4": {
-        "value": "{transparentDark.opacity84}",
+        "value": "{transparentDark.opacity16}",
         "type": "color"
       },
       "op5": {
-        "value": "{transparentDark.opacity80}",
+        "value": "{transparentDark.opacity18}",
         "type": "color"
       },
       "op6": {
-        "value": "{transparentDark.opacity78}",
+        "value": "{transparentDark.opacity20}",
         "type": "color"
       },
       "op7": {
-        "value": "{transparentDark.opacity74}",
+        "value": "{transparentDark.opacity24}",
         "type": "color"
       },
       "op8": {
-        "value": "{transparentDark.opacity68}",
+        "value": "{transparentDark.opacity28}",
         "type": "color"
       }
     },
