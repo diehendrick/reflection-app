@@ -233,7 +233,8 @@
             "modify": {
               "type": "darken",
               "value": "0.50",
-              "space": "hsl"
+              "space": "hsl",
+              "color": "{primary.primary35} "
             }
           }
         },
@@ -3934,6 +3935,10 @@
         "value": "{primary.primary40}",
         "type": "color"
       },
+      "primaryDarkAlt": {
+        "value": "#4D4D95",
+        "type": "color"
+      },
       "secondary": {
         "value": "{secondary.secondary55}",
         "type": "color"
@@ -4514,6 +4519,10 @@
       },
       "primaryDark": {
         "value": "{primary.primary25}",
+        "type": "color"
+      },
+      "primaryDarkAlt": {
+        "value": "#4D4D95",
         "type": "color"
       },
       "secondary": {
