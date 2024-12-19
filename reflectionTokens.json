@@ -4076,6 +4076,19 @@
           }
         }
       },
+      "overlayPrimarytDark50": {
+        "value": "#232D62",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.50",
+              "space": "lch"
+            }
+          }
+        }
+      },
       "overlayLight20": {
         "value": "{transparentLight.opacity20}",
         "type": "color"
@@ -4743,6 +4756,19 @@
       "overlayLight84": {
         "value": "{transparentDark.opacity78}",
         "type": "color"
+      },
+      "overlayPrimarytDark50": {
+        "value": "#232D62",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.50",
+              "space": "lch"
+            }
+          }
+        }
       }
     },
     "iconColor": {
@@ -15389,7 +15415,8 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
+        "bgColor.overlayPrimarytDark50": "aabbbe229a871f81b00fddd60ede1363e3843286"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -15514,6 +15541,7 @@
         "bgColor.overlayLight60": "b88a362f9b51df86aa81e44dcbe2a8c104c18727",
         "bgColor.overlayLight80": "23e47e6ab637d7559b58a2a1bb635e9940912a9a",
         "bgColor.overlayPrimarytDark30": "792ce2016135e330e30bb633c858c7dcc3e66c3d",
+        "bgColor.overlayPrimarytDark50": "aabbbe229a871f81b00fddd60ede1363e3843286",
         "bgColor.overlayLight20": "cc038586b908eac615f1f7702eb93b1d44f66417",
         "bgColor.overlayBlue75": "9ca989bf1f1d3a1df4c5105b10198352de5207dc",
         "bgColor.overlayPurple75": "6657c88f0ea66b53b1748bdb25b42efc7ddca6b5",
