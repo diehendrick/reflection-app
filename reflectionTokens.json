@@ -4527,7 +4527,7 @@
         "type": "color"
       },
       "lightPrimaryAlt": {
-        "value": "{primary.primary35}",
+        "value": "#5A5BAB",
         "type": "color"
       },
       "primaryDark": {
