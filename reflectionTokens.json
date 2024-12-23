@@ -4479,11 +4479,11 @@
         "type": "color"
       },
       "warning": {
-        "value": "{sem.orange75}",
+        "value": "{sem.orange55}",
         "type": "color"
       },
       "success": {
-        "value": "{sem.green75}",
+        "value": "{sem.green55}",
         "type": "color"
       },
       "info": {
