@@ -4475,7 +4475,7 @@
         "description": "can be use for general or text link"
       },
       "danger": {
-        "value": "{sem.red75}",
+        "value": "{sem.red55}",
         "type": "color"
       },
       "warning": {
