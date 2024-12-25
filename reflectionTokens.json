@@ -4773,7 +4773,7 @@
     },
     "iconColor": {
       "default": {
-        "value": "{neutral.neutral70}",
+        "value": "{neutral.neutral90}",
         "type": "color"
       },
       "defaultAlt": {
