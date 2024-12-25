@@ -4523,8 +4523,9 @@
         "type": "color"
       },
       "lightPrimary": {
-        "value": "#595BAB",
-        "type": "color"
+        "value": "{neutral.neutral25}",
+        "type": "color",
+        "description": "original color: #595BAB "
       },
       "lightPrimaryAlt": {
         "value": "#464797",
