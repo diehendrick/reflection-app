@@ -4205,7 +4205,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{neutral.neutral90}",
+        "value": "{neutral.neutral80}",
         "type": "color"
       },
       "primary": {
