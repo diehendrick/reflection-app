@@ -3620,7 +3620,7 @@
           "description": "dropdown selected"
         },
         "disabled": {
-          "value": "{neutral.neutral85}",
+          "value": "{neutral.neutral90}",
           "type": "color"
         },
         "dp-disabled": {
