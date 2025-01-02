@@ -4044,23 +4044,23 @@
         "type": "color"
       },
       "overlayLight90": {
-        "value": "{transparentLight2.opacity90}",
+        "value": "{transparentLight.opacity90}",
         "type": "color"
       },
       "overlayLight84": {
-        "value": "{transparentLight2.opacity84}",
+        "value": "{transparentLight.opacity84}",
         "type": "color"
       },
       "overlayLight04": {
-        "value": "{transparentLight2.opacity04}",
+        "value": "{transparentLight.opacity04}",
         "type": "color"
       },
       "overlayLight60": {
-        "value": "{transparentLight2.opacity60}",
+        "value": "{transparentLight.opacity60}",
         "type": "color"
       },
       "overlayLight80": {
-        "value": "{transparentLight2.opacity80}",
+        "value": "{transparentLight.opacity80}",
         "type": "color"
       },
       "overlayPrimarytDark30": {
@@ -4090,7 +4090,7 @@
         }
       },
       "overlayLight20": {
-        "value": "{transparentLight2.opacity20}",
+        "value": "{transparentLight.opacity20}",
         "type": "color"
       },
       "overlayBlue75": {
