@@ -4044,23 +4044,23 @@
         "type": "color"
       },
       "overlayLight90": {
-        "value": "{transparentLight.opacity90}",
+        "value": "{transparentLight2.opacity90}",
         "type": "color"
       },
       "overlayLight84": {
-        "value": "{transparentLight.opacity84}",
+        "value": "{transparentLight2.opacity84}",
         "type": "color"
       },
       "overlayLight04": {
-        "value": "{transparentLight.opacity04}",
+        "value": "{transparentLight2.opacity04}",
         "type": "color"
       },
       "overlayLight60": {
-        "value": "{transparentLight.opacity60}",
+        "value": "{transparentLight2.opacity60}",
         "type": "color"
       },
       "overlayLight80": {
-        "value": "{transparentLight.opacity80}",
+        "value": "{transparentLight2.opacity80}",
         "type": "color"
       },
       "overlayPrimarytDark30": {
@@ -4090,7 +4090,7 @@
         }
       },
       "overlayLight20": {
-        "value": "{transparentLight.opacity20}",
+        "value": "{transparentLight2.opacity20}",
         "type": "color"
       },
       "overlayBlue75": {
@@ -10080,268 +10080,6 @@
         "type": "color"
       }
     },
-    "transparentLight": {
-      "opacity04": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.04",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity08": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.08",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity10": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.10",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity12": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.12",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity14": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.14",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity16": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.16",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity18": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.18",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity20": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.20",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity24": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.24",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity28": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.28",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity60": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.60",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity64": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.64",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity68": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.68",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity74": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.74",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity78": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.78",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity80": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.80",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity84": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.84",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity88": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.88",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity90": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.90",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral90}",
-        "type": "color"
-      },
-      "opacity94": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.94",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral80}",
-        "type": "color"
-      }
-    },
     "transparentPrimary": {
       "opacity04": {
         "$extensions": {
@@ -10855,6 +10593,268 @@
           }
         },
         "value": "{tertiary.tertiary55}",
+        "type": "color"
+      }
+    },
+    "transparentLight": {
+      "opacity04": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.04",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity08": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.08",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity10": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.10",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity12": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.12",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity14": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.14",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity16": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.16",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity18": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.18",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity20": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.20",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity24": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.24",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity28": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.28",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity60": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.60",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity64": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.64",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity68": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.68",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity74": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.74",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity78": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.78",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity80": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.80",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity84": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.84",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity88": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.88",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral90}",
+        "type": "color"
+      },
+      "opacity90": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.90",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
+        "type": "color"
+      },
+      "opacity94": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.94",
+              "space": "lch"
+            }
+          }
+        },
+        "value": "{neutral.neutral100}",
         "type": "color"
       }
     }
@@ -15172,26 +15172,6 @@
         "transparentDark.opacity88": "8136917dc8e95d6ea0da6b5c3b1eef6f2b170b5e",
         "transparentDark.opacity90": "5272860b42785a588a86a6ebd550d52b0cdcea64",
         "transparentDark.opacity94": "36e68fbb995ef1b727bc94c70111fce7b2b0e1fe",
-        "transparentLight.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
-        "transparentLight.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
-        "transparentLight.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
-        "transparentLight.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
-        "transparentLight.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
-        "transparentLight.opacity16": "29dd504821027653366808928e4bde381547f8f8",
-        "transparentLight.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
-        "transparentLight.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
-        "transparentLight.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
-        "transparentLight.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
-        "transparentLight.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
-        "transparentLight.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
-        "transparentLight.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
-        "transparentLight.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
-        "transparentLight.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
-        "transparentLight.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
-        "transparentLight.opacity84": "5b09473e919a113be28e468e298642661424beb8",
-        "transparentLight.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
-        "transparentLight.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
-        "transparentLight.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4",
         "transparentPrimary.opacity04": "176a09c156f48ec47f5e6b34dc0ace83b5a5e143",
         "transparentPrimary.opacity08": "47a5ed56b357e729c193598768b8a50fdbf4152c",
         "transparentPrimary.opacity10": "7c14278bdbce6c106558f6fdeb0977dfe35d95ea",
@@ -15231,7 +15211,27 @@
         "tertiary.tertiary20": "00ceda5fb80d7bd54d3b8723022570bb09bce9cd",
         "tertiary.tertiary10": "65c1a37f6010f1383f8de1834f7359d51d729c04",
         "tertiary.tertiary05": "813d5de55f146785379669775c6fd4daf834c6de",
-        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a"
+        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a",
+        "transparentLight2.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
+        "transparentLight2.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
+        "transparentLight2.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
+        "transparentLight2.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
+        "transparentLight2.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
+        "transparentLight2.opacity16": "29dd504821027653366808928e4bde381547f8f8",
+        "transparentLight2.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
+        "transparentLight2.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
+        "transparentLight2.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
+        "transparentLight2.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
+        "transparentLight2.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
+        "transparentLight2.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
+        "transparentLight2.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
+        "transparentLight2.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
+        "transparentLight2.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
+        "transparentLight2.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
+        "transparentLight2.opacity84": "5b09473e919a113be28e468e298642661424beb8",
+        "transparentLight2.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
+        "transparentLight2.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
+        "transparentLight2.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1660",
       "$figmaModeId": "2004:22"
@@ -15777,26 +15777,6 @@
         "transparentDark.opacity88": "8136917dc8e95d6ea0da6b5c3b1eef6f2b170b5e",
         "transparentDark.opacity90": "5272860b42785a588a86a6ebd550d52b0cdcea64",
         "transparentDark.opacity94": "36e68fbb995ef1b727bc94c70111fce7b2b0e1fe",
-        "transparentLight.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
-        "transparentLight.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
-        "transparentLight.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
-        "transparentLight.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
-        "transparentLight.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
-        "transparentLight.opacity16": "29dd504821027653366808928e4bde381547f8f8",
-        "transparentLight.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
-        "transparentLight.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
-        "transparentLight.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
-        "transparentLight.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
-        "transparentLight.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
-        "transparentLight.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
-        "transparentLight.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
-        "transparentLight.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
-        "transparentLight.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
-        "transparentLight.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
-        "transparentLight.opacity84": "5b09473e919a113be28e468e298642661424beb8",
-        "transparentLight.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
-        "transparentLight.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
-        "transparentLight.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4",
         "transparentPrimary.opacity04": "176a09c156f48ec47f5e6b34dc0ace83b5a5e143",
         "transparentPrimary.opacity08": "47a5ed56b357e729c193598768b8a50fdbf4152c",
         "transparentPrimary.opacity10": "7c14278bdbce6c106558f6fdeb0977dfe35d95ea",
@@ -15836,7 +15816,27 @@
         "tertiary.tertiary20": "00ceda5fb80d7bd54d3b8723022570bb09bce9cd",
         "tertiary.tertiary10": "65c1a37f6010f1383f8de1834f7359d51d729c04",
         "tertiary.tertiary05": "813d5de55f146785379669775c6fd4daf834c6de",
-        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a"
+        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a",
+        "transparentLight2.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
+        "transparentLight2.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
+        "transparentLight2.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
+        "transparentLight2.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
+        "transparentLight2.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
+        "transparentLight2.opacity16": "29dd504821027653366808928e4bde381547f8f8",
+        "transparentLight2.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
+        "transparentLight2.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
+        "transparentLight2.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
+        "transparentLight2.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
+        "transparentLight2.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
+        "transparentLight2.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
+        "transparentLight2.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
+        "transparentLight2.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
+        "transparentLight2.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
+        "transparentLight2.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
+        "transparentLight2.opacity84": "5b09473e919a113be28e468e298642661424beb8",
+        "transparentLight2.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
+        "transparentLight2.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
+        "transparentLight2.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1660",
       "$figmaModeId": "2004:23"
@@ -16243,26 +16243,6 @@
         "transparentDark.opacity88": "8136917dc8e95d6ea0da6b5c3b1eef6f2b170b5e",
         "transparentDark.opacity90": "5272860b42785a588a86a6ebd550d52b0cdcea64",
         "transparentDark.opacity94": "36e68fbb995ef1b727bc94c70111fce7b2b0e1fe",
-        "transparentLight.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
-        "transparentLight.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
-        "transparentLight.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
-        "transparentLight.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
-        "transparentLight.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
-        "transparentLight.opacity16": "29dd504821027653366808928e4bde381547f8f8",
-        "transparentLight.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
-        "transparentLight.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
-        "transparentLight.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
-        "transparentLight.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
-        "transparentLight.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
-        "transparentLight.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
-        "transparentLight.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
-        "transparentLight.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
-        "transparentLight.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
-        "transparentLight.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
-        "transparentLight.opacity84": "5b09473e919a113be28e468e298642661424beb8",
-        "transparentLight.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
-        "transparentLight.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
-        "transparentLight.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4",
         "transparentPrimary.opacity04": "176a09c156f48ec47f5e6b34dc0ace83b5a5e143",
         "transparentPrimary.opacity08": "47a5ed56b357e729c193598768b8a50fdbf4152c",
         "transparentPrimary.opacity10": "7c14278bdbce6c106558f6fdeb0977dfe35d95ea",
@@ -16302,7 +16282,27 @@
         "tertiary.tertiary20": "00ceda5fb80d7bd54d3b8723022570bb09bce9cd",
         "tertiary.tertiary10": "65c1a37f6010f1383f8de1834f7359d51d729c04",
         "tertiary.tertiary05": "813d5de55f146785379669775c6fd4daf834c6de",
-        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a"
+        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a",
+        "transparentLight2.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
+        "transparentLight2.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
+        "transparentLight2.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
+        "transparentLight2.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
+        "transparentLight2.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
+        "transparentLight2.opacity16": "29dd504821027653366808928e4bde381547f8f8",
+        "transparentLight2.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
+        "transparentLight2.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
+        "transparentLight2.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
+        "transparentLight2.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
+        "transparentLight2.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
+        "transparentLight2.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
+        "transparentLight2.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
+        "transparentLight2.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
+        "transparentLight2.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
+        "transparentLight2.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
+        "transparentLight2.opacity84": "5b09473e919a113be28e468e298642661424beb8",
+        "transparentLight2.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
+        "transparentLight2.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
+        "transparentLight2.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1660",
       "$figmaModeId": "2004:25"
