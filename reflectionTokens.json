@@ -4515,7 +4515,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{neutral.neutral05}",
+        "value": "{neutral.neutral20}",
         "type": "color"
       },
       "primary": {
@@ -4523,9 +4523,9 @@
         "type": "color"
       },
       "lightPrimary": {
-        "value": "{neutral.neutral25}",
+        "value": "#22224B",
         "type": "color",
-        "description": "original color: #595BAB "
+        "description": "original color: #595BAB and alt : 22224B. prev: {neutral.neutral25}"
       },
       "lightPrimaryAlt": {
         "value": "#464797",
@@ -4947,7 +4947,7 @@
         "type": "color"
       },
       "lightGrey": {
-        "value": "{neutral.neutral30}",
+        "value": "{neutral.neutral50}",
         "type": "color"
       },
       "lightPrimaryAlt": {
