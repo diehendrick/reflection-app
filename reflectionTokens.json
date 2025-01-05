@@ -3826,8 +3826,9 @@
         "type": "color"
       },
       "defaultAlt": {
-        "value": "{neutral.neutral45}",
-        "type": "color"
+        "value": "#555555",
+        "type": "color",
+        "description": "original: {neutral.neutral45}"
       },
       "secDefault": {
         "value": "{neutral.neutral60}",
@@ -4293,7 +4294,7 @@
         "type": "color"
       },
       "grey": {
-        "value": "{neutral.neutral75}",
+        "value": "{neutral.neutral80}",
         "type": "color"
       },
       "lightGrey": {
@@ -15324,6 +15325,7 @@
         "bgColor.overlayYellow75": "72a518c9b8fb9f87bb696dce572c1b4c2f8bd34b",
         "bgColor.overlayOrange75": "f618e0a2745710a505c5b327ccdf0256824b8433",
         "bgColor.overlayLight84": "7ab8149104317d0afc1ed8f3aaf60426d9efaf95",
+        "bgColor.overlayPrimarytDark50": "aabbbe229a871f81b00fddd60ede1363e3843286",
         "iconColor.default": "a9aa58749bd2edebc3ee949e7d280c61906f8006",
         "iconColor.defaultAlt": "3d9dc4af0cb409e60d6715e8a1b75dddcbfed029",
         "iconColor.dark": "f94cc5358275d0c2fc630c7f94a0da8d32b13d49",
@@ -15426,8 +15428,7 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
-        "bgColor.overlayPrimarytDark50": "aabbbe229a871f81b00fddd60ede1363e3843286"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
