@@ -2081,6 +2081,16 @@
         },
         "type": "typography"
       },
+      "largeLight": {
+        "value": {
+          "fontFamily": "{fontFamilies.secondary}",
+          "fontWeight": "{fontWeights.light}",
+          "lineHeight": "{lineHeights.xl}",
+          "fontSize": "{fontSize.lg}",
+          "letterSpacing": "{letterSpacing.md}"
+        },
+        "type": "typography"
+      },
       "xLargeLight": {
         "value": {
           "fontFamily": "{fontFamilies.secondary}",
