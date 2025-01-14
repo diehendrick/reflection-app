@@ -4052,10 +4052,6 @@
         "value": "{neutral.neutral95}",
         "type": "color"
       },
-      "lightGreyAlt": {
-        "value": "#FDFDFF",
-        "type": "color"
-      },
       "overlayDark20": {
         "value": "{transparentDark.opacity20}",
         "type": "color"
@@ -4795,10 +4791,6 @@
             }
           }
         }
-      },
-      "lightGreyAlt": {
-        "value": "{neutral.neutral20}",
-        "type": "color"
       }
     },
     "iconColor": {
@@ -15446,8 +15438,7 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
-        "bgColor.lightGreyAlt": "43a45f83e1f66b578c4d230edf86722826a907a5"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -15563,7 +15554,6 @@
         "bgColor.lightBlue": "6b3d1c7b22e094145b86e7c8a494d0ae8551f52d",
         "bgColor.grey": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
         "bgColor.lightGrey": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
-        "bgColor.lightGreyAlt": "43a45f83e1f66b578c4d230edf86722826a907a5",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
         "bgColor.overlayDark80": "0360a302da58db6546428b13f23c452238b9497d",
         "bgColor.overlayDark90": "723e98c35b0276afa5d83378ca9873ebe2ab871c",
