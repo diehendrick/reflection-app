@@ -4365,6 +4365,10 @@
       "lightGrey": {
         "value": "{neutral.neutral85}",
         "type": "color"
+      },
+      "lightGreyAlt": {
+        "value": "{neutral.neutral90}",
+        "type": "color"
       }
     },
     "shadow": {
@@ -4973,6 +4977,10 @@
       },
       "lightPrimaryAlt": {
         "value": "{bgColor.lightPrimaryAlt}",
+        "type": "color"
+      },
+      "lightGreyAlt": {
+        "value": "{neutral.neutral55}",
         "type": "color"
       }
     },
@@ -15438,7 +15446,8 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
+        "strokeColor.lightGreyAlt": "6e151b1080536f9cd92c5a42fda2024985e0e55e"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -15612,6 +15621,7 @@
         "strokeColor.blue": "9a4f2695ff4fd3d5911ccf7ef2483ec889a84ddb",
         "strokeColor.grey": "519c82b6f1588d9ecdc5609591984811b347fce0",
         "strokeColor.lightGrey": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
+        "strokeColor.lightGreyAlt": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
         "shadow.op1": "26b826522792465a945e84d5d286699c9b828411",
         "shadow.op2": "5a1812c2eaf62c749836c39e2afdc4e3704a400e",
         "shadow.op3": "2b11d70b7803ff83508b2b88874002886c39b229",
