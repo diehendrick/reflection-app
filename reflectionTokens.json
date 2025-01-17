@@ -3881,16 +3881,6 @@
         "description": "can be use for general or text link",
         "type": "color"
       },
-      "secondary": {
-        "value": "{secondary.secondary55}",
-        "description": "can be use for general or text link",
-        "type": "color"
-      },
-      "secondarySelected": {
-        "value": "{secondary.secondary45}",
-        "description": "can be use for general or text link",
-        "type": "color"
-      },
       "tertiary": {
         "value": "{tertiary.tertiary55}",
         "type": "color",
@@ -3906,10 +3896,6 @@
       },
       "success": {
         "value": "{sem.green55}",
-        "type": "color"
-      },
-      "info": {
-        "value": "{sem.blue55}",
         "type": "color"
       }
     },
@@ -3960,34 +3946,6 @@
         "value": "#4D4D95",
         "type": "color"
       },
-      "secondary": {
-        "value": "{secondary.secondary55}",
-        "type": "color"
-      },
-      "lightSecondary": {
-        "value": "{secondary.secondary100}",
-        "type": "color"
-      },
-      "lightSecondaryAlt": {
-        "value": "{secondary.secondary90}",
-        "type": "color"
-      },
-      "secondaryDark": {
-        "value": "{secondary.secondary40}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{tertiary.tertiary55}",
-        "type": "color"
-      },
-      "tertiaryDark": {
-        "value": "{tertiary.tertiary40}",
-        "type": "color"
-      },
-      "lightTertiary": {
-        "value": "{tertiary.tertiary100}",
-        "type": "color"
-      },
       "lightTertiaryAlt": {
         "value": "{tertiary.tertiary90}",
         "type": "color"
@@ -4030,18 +3988,6 @@
       },
       "lightRed": {
         "value": "{sem.red100}",
-        "type": "color"
-      },
-      "blue": {
-        "value": "{sem.blue55}",
-        "type": "color"
-      },
-      "blueDark": {
-        "value": "{sem.blue40}",
-        "type": "color"
-      },
-      "lightBlue": {
-        "value": "{sem.blue100}",
         "type": "color"
       },
       "grey": {
@@ -4249,18 +4195,6 @@
         "value": "{bgColor.primaryDark}",
         "type": "color"
       },
-      "secondary": {
-        "value": "{bgColor.secondary}",
-        "type": "color"
-      },
-      "lightSecondary": {
-        "value": "{bgColor.lightSecondary}",
-        "type": "color"
-      },
-      "secondaryDark": {
-        "value": "{bgColor.secondaryDark}",
-        "type": "color"
-      },
       "tertiaryLight": {
         "value": "{tertiary.tertiary65}",
         "type": "color",
@@ -4293,14 +4227,6 @@
       },
       "green": {
         "value": "{sem.green55}",
-        "type": "color"
-      },
-      "lightBlue": {
-        "value": "{sem.blue65}",
-        "type": "color"
-      },
-      "blue": {
-        "value": "{sem.blue55}",
         "type": "color"
       },
       "grey": {
@@ -4338,10 +4264,6 @@
         "value": "{bgColor.lightPrimaryAlt}",
         "type": "color"
       },
-      "secondary": {
-        "value": "{secondary.secondary55}",
-        "type": "color"
-      },
       "red": {
         "value": "{sem.red55}",
         "type": "color"
@@ -4352,10 +4274,6 @@
       },
       "green": {
         "value": "{sem.green55}",
-        "type": "color"
-      },
-      "blue": {
-        "value": "{sem.blue55}",
         "type": "color"
       },
       "grey": {
@@ -4486,14 +4404,6 @@
         "value": "{primary.primary60}",
         "type": "color"
       },
-      "secondary": {
-        "value": "{secondary.secondary75}",
-        "type": "color"
-      },
-      "secondarySelected": {
-        "value": "{secondary.secondary60}",
-        "type": "color"
-      },
       "tertiary": {
         "value": "{tertiary.tertiary75}",
         "type": "color",
@@ -4509,10 +4419,6 @@
       },
       "success": {
         "value": "{sem.green55}",
-        "type": "color"
-      },
-      "info": {
-        "value": "{sem.blue75}",
         "type": "color"
       }
     },
@@ -4564,36 +4470,8 @@
         "value": "#4D4D95",
         "type": "color"
       },
-      "secondary": {
-        "value": "{secondary.secondary55}",
-        "type": "color"
-      },
-      "lightSecondary": {
-        "value": "{secondary.secondary40}",
-        "type": "color"
-      },
-      "lightSecondaryAlt": {
-        "value": "{secondary.secondary35}",
-        "type": "color"
-      },
-      "secondaryDark": {
-        "value": "{secondary.secondary25}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{tertiary.tertiary55}",
-        "type": "color"
-      },
-      "lightTertiary": {
-        "value": "{tertiary.tertiary40}",
-        "type": "color"
-      },
       "lightTertiaryAlt": {
         "value": "{tertiary.tertiary35}",
-        "type": "color"
-      },
-      "tertiaryDark": {
-        "value": "{tertiary.tertiary25}",
         "type": "color"
       },
       "orange": {
@@ -4634,18 +4512,6 @@
       },
       "lightRedAlt": {
         "value": "#B75C5C",
-        "type": "color"
-      },
-      "blue": {
-        "value": "{sem.blue55}",
-        "type": "color"
-      },
-      "blueDark": {
-        "value": "{sem.blue0}",
-        "type": "color"
-      },
-      "lightBlue": {
-        "value": "{sem.blue05}",
         "type": "color"
       },
       "grey": {
@@ -4853,18 +4719,6 @@
         "value": "{bgColor.primaryDark}",
         "type": "color"
       },
-      "secondary": {
-        "value": "{secondary.secondary75}",
-        "type": "color"
-      },
-      "lightSecondary": {
-        "value": "{bgColor.lightSecondary}",
-        "type": "color"
-      },
-      "secondaryDark": {
-        "value": "{secondary.secondary60}",
-        "type": "color"
-      },
       "tertiaryLight": {
         "value": "{tertiary.tertiary65}",
         "type": "color",
@@ -4897,14 +4751,6 @@
       },
       "green": {
         "value": "{sem.green55}",
-        "type": "color"
-      },
-      "lightBlue": {
-        "value": "{sem.blue65}",
-        "type": "color"
-      },
-      "blue": {
-        "value": "{sem.blue55}",
         "type": "color"
       },
       "grey": {
@@ -4947,10 +4793,6 @@
         "value": "{primary.primary55}",
         "type": "color"
       },
-      "secondary": {
-        "value": "{secondary.secondary75}",
-        "type": "color"
-      },
       "red": {
         "value": "{sem.red55}",
         "type": "color"
@@ -4961,10 +4803,6 @@
       },
       "green": {
         "value": "{sem.green55}",
-        "type": "color"
-      },
-      "blue": {
-        "value": "{sem.blue55}",
         "type": "color"
       },
       "grey": {
@@ -15286,13 +15124,10 @@
         "textColor.primary": "28bacd3ad2d72fa5892751c9fca1728aab903148",
         "textColor.primaryNeutral": "1771838800e527ee83b5ebfa25f5903f0093c5c6",
         "textColor.primarySelected": "b2e2664a0dc414e63f644681f5ab98fcc1ee2e9e",
-        "textColor.secondary": "436462b162be7ca2b1bb626390fb605cd3620a94",
-        "textColor.secondarySelected": "06a452670685109cc9bf51898e65a9a7bcf4f4ad",
         "textColor.tertiary": "23a33c8148d6fa1b09e5bb11dce73d81fd5898a6",
         "textColor.danger": "4703b445facf3f47db980bc779651bea0b098287",
         "textColor.warning": "440664f1b846192a514c28e51a0c7083023889ed",
         "textColor.success": "5211dc1f25f8cdb8ba6ed952075c18b3493dc204",
-        "textColor.info": "c8196476ef56536e3222776a9e1a5e4d2da80c39",
         "bgColor.dark": "9be99635ed17c66c6ed702f80630d0f84ffa0446",
         "bgColor.neutralDark": "19a2ce120bbc657c5a629f79f5f016edd49ee4ca",
         "bgColor.light": "ff0644c8cfbc864987e60fc0a00399227da5b7ac",
@@ -15304,14 +15139,7 @@
         "bgColor.lightPrimaryAlt": "47cce9a42099f986894de5ccd1af7f17a28322fa",
         "bgColor.primaryDark": "c8120f03ff4b7c8c1735a34873a029d999912c15",
         "bgColor.primaryDarkAlt": "6e3b66ee9e5294c5f89ec0ef199c0971dd9571fe",
-        "bgColor.secondary": "3402a0c564a11689a40a0d71d52d809d88b7519f",
-        "bgColor.lightSecondary": "448bba26233619bd86d9e1131f135da527cc0ad2",
-        "bgColor.lightSecondaryAlt": "5b0d0606465707539ce4804eb407e9196d0593d4",
-        "bgColor.secondaryDark": "0726f1a13cf2dbcf3804f645356bc148f3c983bb",
-        "bgColor.tertiary": "decfd39d975fa6099ccaf8d85de47c05aa840a54",
-        "bgColor.lightTertiary": "d7e93351101221400d02fa39d8f926f14ae44fd0",
         "bgColor.lightTertiaryAlt": "b280501da7388b87122a95ea105f93eeb2b9f387",
-        "bgColor.tertiaryDark": "cc1bfa008457d5d1892de8982aa89613144daa8e",
         "bgColor.orange": "1860eba94e875a19dfd88f39c776703bafc56b3b",
         "bgColor.orangeDark": "6835e7b7a640311935865733cbbdfc008c62b773",
         "bgColor.lightOrange": "faa6bb4a83add01ae4e575be527ed4a3438c17d8",
@@ -15322,9 +15150,6 @@
         "bgColor.redDark": "8c2c8bb9c46e6009d3f2d0ab5e3ac34f968fe805",
         "bgColor.lightRed": "a399172189c366b1029411ff61f4f44143c8d171",
         "bgColor.lightRedAlt": "16a0b2fa39a524dd5792136ec8a4d807ac33305f",
-        "bgColor.blue": "93c106924cb334f27437b3c058d0a27b066afb07",
-        "bgColor.blueDark": "fafc8ae29ecac04c73276198e3b2368a41b93af7",
-        "bgColor.lightBlue": "6b3d1c7b22e094145b86e7c8a494d0ae8551f52d",
         "bgColor.grey": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
         "bgColor.lightGrey": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
@@ -15357,9 +15182,6 @@
         "iconColor.lightPrimary": "595ab03b3674b5c82bf1b1ae96b5152fb5265f06",
         "iconColor.lightPrimaryAlt": "c0ae176c469382bae57be0b5f7be62e41e80d65c",
         "iconColor.primaryDark": "a288e9d3240810c8e650fe271ef0d33266ea1d36",
-        "iconColor.secondary": "6e75e4365dcd541f3a514e1d1eedcc9c14140927",
-        "iconColor.lightSecondary": "52dede7b80b45e7fca3ed8c3b340e0d0df0de170",
-        "iconColor.secondaryDark": "0c1586d6f7290fde41bedfbfdcec7af14c85f647",
         "iconColor.tertiaryLight": "56d8e2b6461a5b07a96f1fd34e5f64b27f5529f1",
         "iconColor.tertiary": "6cdaeb51e3ad2a00d7635a6d8fd13d4473523f41",
         "iconColor.lightRed": "6b0cec45d1c2c37f802af9a13630107196fcb1d6",
@@ -15368,8 +15190,6 @@
         "iconColor.orange": "a6628a4c5f6b737b0c0adf92958d260840341964",
         "iconColor.lightGreen": "1b13740441f74963ab422f970d4d63618403a1d0",
         "iconColor.green": "f31ab4198a79aab725ce520640bc3c8b3c1f41b8",
-        "iconColor.lightBlue": "16a8f3d5de7f8553d7150e9395d10224efc02339",
-        "iconColor.blue": "a26bc35d2048516abc267ac6466623cfc89647f8",
         "iconColor.grey": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
         "iconColor.lightGrey": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
         "strokeColor.neutral": "890a17d05dbc0078390c912d96bdbbb1b10954d5",
@@ -15377,11 +15197,9 @@
         "strokeColor.light": "355c19b2ca01ce9157247e87f874822df50ed1bf",
         "strokeColor.disabled": "f278a54d0292f74dc46b498980ce8fd6010f84c0",
         "strokeColor.primary": "f3f4db44b82b1428c5bad2161650e0d6c8362869",
-        "strokeColor.secondary": "ac6b14829416c4bff4328aea6490d93b13d43299",
         "strokeColor.red": "fa6a129fea69c138ec71d6d0170ba9d24030438a",
         "strokeColor.orange": "c2755366a2042445e858f9d92699ca39753e85b0",
         "strokeColor.green": "57e9c37a6faff009e79b959d9f2bbdf91ae05515",
-        "strokeColor.blue": "9a4f2695ff4fd3d5911ccf7ef2483ec889a84ddb",
         "strokeColor.grey": "519c82b6f1588d9ecdc5609591984811b347fce0",
         "strokeColor.lightGrey": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
         "strokeColor.lightPrimaryAlt": "6cce614d27143837f0d6e10a6556f78be944109b",
@@ -15522,13 +15340,10 @@
         "textColor.primary": "28bacd3ad2d72fa5892751c9fca1728aab903148",
         "textColor.primaryNeutral": "1771838800e527ee83b5ebfa25f5903f0093c5c6",
         "textColor.primarySelected": "b2e2664a0dc414e63f644681f5ab98fcc1ee2e9e",
-        "textColor.secondary": "436462b162be7ca2b1bb626390fb605cd3620a94",
-        "textColor.secondarySelected": "06a452670685109cc9bf51898e65a9a7bcf4f4ad",
         "textColor.tertiary": "23a33c8148d6fa1b09e5bb11dce73d81fd5898a6",
         "textColor.danger": "4703b445facf3f47db980bc779651bea0b098287",
         "textColor.warning": "440664f1b846192a514c28e51a0c7083023889ed",
         "textColor.success": "5211dc1f25f8cdb8ba6ed952075c18b3493dc204",
-        "textColor.info": "c8196476ef56536e3222776a9e1a5e4d2da80c39",
         "bgColor.dark": "9be99635ed17c66c6ed702f80630d0f84ffa0446",
         "bgColor.neutralDark": "19a2ce120bbc657c5a629f79f5f016edd49ee4ca",
         "bgColor.light": "ff0644c8cfbc864987e60fc0a00399227da5b7ac",
@@ -15540,13 +15355,6 @@
         "bgColor.lightPrimaryAlt": "47cce9a42099f986894de5ccd1af7f17a28322fa",
         "bgColor.primaryDark": "c8120f03ff4b7c8c1735a34873a029d999912c15",
         "bgColor.primaryDarkAlt": "6e3b66ee9e5294c5f89ec0ef199c0971dd9571fe",
-        "bgColor.secondary": "3402a0c564a11689a40a0d71d52d809d88b7519f",
-        "bgColor.lightSecondary": "448bba26233619bd86d9e1131f135da527cc0ad2",
-        "bgColor.lightSecondaryAlt": "5b0d0606465707539ce4804eb407e9196d0593d4",
-        "bgColor.secondaryDark": "0726f1a13cf2dbcf3804f645356bc148f3c983bb",
-        "bgColor.tertiary": "decfd39d975fa6099ccaf8d85de47c05aa840a54",
-        "bgColor.tertiaryDark": "cc1bfa008457d5d1892de8982aa89613144daa8e",
-        "bgColor.lightTertiary": "d7e93351101221400d02fa39d8f926f14ae44fd0",
         "bgColor.lightTertiaryAlt": "b280501da7388b87122a95ea105f93eeb2b9f387",
         "bgColor.orange": "1860eba94e875a19dfd88f39c776703bafc56b3b",
         "bgColor.orangeDark": "6835e7b7a640311935865733cbbdfc008c62b773",
@@ -15558,9 +15366,6 @@
         "bgColor.redDark": "8c2c8bb9c46e6009d3f2d0ab5e3ac34f968fe805",
         "bgColor.lightRedAlt": "16a0b2fa39a524dd5792136ec8a4d807ac33305f",
         "bgColor.lightRed": "a399172189c366b1029411ff61f4f44143c8d171",
-        "bgColor.blue": "93c106924cb334f27437b3c058d0a27b066afb07",
-        "bgColor.blueDark": "fafc8ae29ecac04c73276198e3b2368a41b93af7",
-        "bgColor.lightBlue": "6b3d1c7b22e094145b86e7c8a494d0ae8551f52d",
         "bgColor.grey": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
         "bgColor.lightGrey": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
@@ -15593,9 +15398,6 @@
         "iconColor.lightPrimary": "595ab03b3674b5c82bf1b1ae96b5152fb5265f06",
         "iconColor.lightPrimaryAlt": "c0ae176c469382bae57be0b5f7be62e41e80d65c",
         "iconColor.primaryDark": "a288e9d3240810c8e650fe271ef0d33266ea1d36",
-        "iconColor.secondary": "6e75e4365dcd541f3a514e1d1eedcc9c14140927",
-        "iconColor.lightSecondary": "52dede7b80b45e7fca3ed8c3b340e0d0df0de170",
-        "iconColor.secondaryDark": "0c1586d6f7290fde41bedfbfdcec7af14c85f647",
         "iconColor.tertiaryLight": "56d8e2b6461a5b07a96f1fd34e5f64b27f5529f1",
         "iconColor.tertiary": "6cdaeb51e3ad2a00d7635a6d8fd13d4473523f41",
         "iconColor.lightRed": "6b0cec45d1c2c37f802af9a13630107196fcb1d6",
@@ -15604,8 +15406,6 @@
         "iconColor.orange": "a6628a4c5f6b737b0c0adf92958d260840341964",
         "iconColor.lightGreen": "1b13740441f74963ab422f970d4d63618403a1d0",
         "iconColor.green": "f31ab4198a79aab725ce520640bc3c8b3c1f41b8",
-        "iconColor.lightBlue": "16a8f3d5de7f8553d7150e9395d10224efc02339",
-        "iconColor.blue": "a26bc35d2048516abc267ac6466623cfc89647f8",
         "iconColor.grey": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
         "iconColor.lightGrey": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
         "strokeColor.neutral": "890a17d05dbc0078390c912d96bdbbb1b10954d5",
@@ -15614,11 +15414,9 @@
         "strokeColor.disabled": "f278a54d0292f74dc46b498980ce8fd6010f84c0",
         "strokeColor.primary": "f3f4db44b82b1428c5bad2161650e0d6c8362869",
         "strokeColor.lightPrimaryAlt": "6cce614d27143837f0d6e10a6556f78be944109b",
-        "strokeColor.secondary": "ac6b14829416c4bff4328aea6490d93b13d43299",
         "strokeColor.red": "fa6a129fea69c138ec71d6d0170ba9d24030438a",
         "strokeColor.orange": "c2755366a2042445e858f9d92699ca39753e85b0",
         "strokeColor.green": "57e9c37a6faff009e79b959d9f2bbdf91ae05515",
-        "strokeColor.blue": "9a4f2695ff4fd3d5911ccf7ef2483ec889a84ddb",
         "strokeColor.grey": "519c82b6f1588d9ecdc5609591984811b347fce0",
         "strokeColor.lightGrey": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
         "strokeColor.lightGreyAlt": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
