@@ -15203,6 +15203,7 @@
         "strokeColor.grey": "519c82b6f1588d9ecdc5609591984811b347fce0",
         "strokeColor.lightGrey": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
         "strokeColor.lightPrimaryAlt": "6cce614d27143837f0d6e10a6556f78be944109b",
+        "strokeColor.lightGreyAlt": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
         "button.primary.default": "f97566ddc3be60b711117b68d8282b319d7ed74e",
         "button.primary.dp-default": "011a371a6302e3848e961299f959719cd82cb0a2",
         "button.primary.hover": "bbef73deea99f571961f752169d5dd896a3794f4",
@@ -15264,8 +15265,7 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
-        "strokeColor.lightGreyAlt": "6e151b1080536f9cd92c5a42fda2024985e0e55e"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
