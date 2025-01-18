@@ -1528,26 +1528,6 @@
         },
         "type": "typography"
       },
-      "xlarge": {
-        "value": {
-          "fontFamily": "{fontFamilies.primary}",
-          "fontWeight": "{fontWeights.semiBold}",
-          "lineHeight": "{lineHeights.7xl}",
-          "fontSize": "{fontSize.5xl}",
-          "letterSpacing": "{letterSpacing.xxsm}"
-        },
-        "type": "typography"
-      },
-      "large": {
-        "value": {
-          "fontFamily": "{fontFamilies.primary}",
-          "fontWeight": "{fontWeights.semiBold}",
-          "lineHeight": "{lineHeights.6xl}",
-          "fontSize": "{fontSize.4xl}",
-          "letterSpacing": "{letterSpacing.xxsm}"
-        },
-        "type": "typography"
-      },
       "medium": {
         "value": {
           "fontFamily": "{fontFamilies.primary}",
@@ -1674,17 +1654,6 @@
         "type": "typography",
         "description": "For input, i.e text field, dropdown, selection, "
       },
-      "hugeStrong": {
-        "value": {
-          "fontFamily": "{fontFamilies.secondary}",
-          "fontWeight": "{fontWeights.bold}",
-          "lineHeight": "{lineHeights.5xl}",
-          "fontSize": "{fontSize.xxl}",
-          "letterSpacing": "{letterSpacing.md}"
-        },
-        "type": "typography",
-        "description": "For input, i.e text field, dropdown, selection, "
-      },
       "large": {
         "value": {
           "fontFamily": "{fontFamilies.secondary}",
@@ -1787,17 +1756,6 @@
         "value": {
           "fontFamily": "{fontFamilies.secondary}",
           "fontWeight": "{fontWeights.regular}",
-          "lineHeight": "{lineHeights.sm}",
-          "fontSize": "{fontSize.xsm}",
-          "letterSpacing": "{letterSpacing.md}"
-        },
-        "type": "typography",
-        "description": "For input, i.e text field, dropdown, selection, "
-      },
-      "tinySemi": {
-        "value": {
-          "fontFamily": "{fontFamilies.secondary}",
-          "fontWeight": "{fontWeights.semiBold}",
           "lineHeight": "{lineHeights.sm}",
           "fontSize": "{fontSize.xsm}",
           "letterSpacing": "{letterSpacing.md}"
