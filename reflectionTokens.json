@@ -3803,15 +3803,6 @@
         "description": "works for dark and light theme",
         "type": "color"
       },
-      "placeholder": {
-        "value": "{neutral.neutral80}",
-        "description": "\n",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{neutral.neutral80}",
-        "type": "color"
-      },
       "primary": {
         "value": "{bgColor.primary}",
         "type": "color"
@@ -3844,11 +3835,11 @@
         "value": "{sem.green55}",
         "type": "color"
       },
-      "grey": {
+      "grey02": {
         "value": "{neutral.neutral80}",
         "type": "color"
       },
-      "lightGrey": {
+      "grey01": {
         "value": "{neutral.neutral90}",
         "type": "color"
       }
@@ -3865,10 +3856,6 @@
       },
       "light": {
         "value": "{neutral.neutral100}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{neutral.neutral85}",
         "type": "color"
       },
       "primary": {
@@ -3891,15 +3878,15 @@
         "value": "{sem.green55}",
         "type": "color"
       },
-      "grey": {
+      "grey03": {
         "value": "{neutral.neutral65}",
         "type": "color"
       },
-      "lightGrey": {
+      "grey02": {
         "value": "{neutral.neutral85}",
         "type": "color"
       },
-      "lightGreyAlt": {
+      "grey01": {
         "value": "{neutral.neutral90}",
         "type": "color"
       }
@@ -4305,15 +4292,6 @@
         "description": "works for dark and light theme",
         "type": "color"
       },
-      "placeholder": {
-        "value": "{neutral.neutral55}",
-        "type": "color",
-        "description": "\n"
-      },
-      "disabled": {
-        "value": "{neutral.neutral05}",
-        "type": "color"
-      },
       "primary": {
         "value": "{textColor.primary}",
         "type": "color"
@@ -4346,11 +4324,11 @@
         "value": "{sem.green55}",
         "type": "color"
       },
-      "grey": {
+      "grey02": {
         "value": "{neutral.neutral60}",
         "type": "color"
       },
-      "lightGrey": {
+      "grey01": {
         "value": "{neutral.neutral55}",
         "type": "color"
       }
@@ -4369,19 +4347,6 @@
         "value": "{neutral.neutral100}",
         "type": "color"
       },
-      "disabled": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.7",
-              "space": "lch"
-            }
-          }
-        },
-        "value": "{neutral.neutral20}",
-        "type": "color"
-      },
       "primary": {
         "value": "{primary.primary55}",
         "type": "color"
@@ -4398,11 +4363,11 @@
         "value": "{sem.green55}",
         "type": "color"
       },
-      "grey": {
+      "grey03": {
         "value": "{neutral.neutral05}",
         "type": "color"
       },
-      "lightGrey": {
+      "grey02": {
         "value": "{neutral.neutral50}",
         "type": "color"
       },
@@ -4410,7 +4375,7 @@
         "value": "{bgColor.lightPrimaryAlt}",
         "type": "color"
       },
-      "lightGreyAlt": {
+      "grey01": {
         "value": "{neutral.neutral55}",
         "type": "color"
       }
@@ -13942,8 +13907,6 @@
         "iconColor.neutralDark": "275ac24ca0c0b1c2e9833a00ee679a0bfde970ff",
         "iconColor.light": "978508fc0ff2b57ce44d1c8c40a0c4c62f85a404",
         "iconColor.neutral": "4f27072be8367088ca3d92ab5d959debf75ea8ae",
-        "iconColor.placeholder": "bdda1e1f0e83f2a6a4e45b8ef4d52090b7b64c27",
-        "iconColor.disabled": "6292deaddb5fd63fa0ef89ba5c2a5f96c4b18024",
         "iconColor.primary": "9e2226e00cbd6efe81d32b52ab07ae138e7cc8d4",
         "iconColor.primaryNeutral": "eeed1de95567fc2c94acb6bcf8e8d8fbce0e81a8",
         "iconColor.lightPrimary": "595ab03b3674b5c82bf1b1ae96b5152fb5265f06",
@@ -13952,20 +13915,14 @@
         "iconColor.red": "38c862173087447cec951b0eaabab8b519cc768c",
         "iconColor.orange": "a6628a4c5f6b737b0c0adf92958d260840341964",
         "iconColor.green": "f31ab4198a79aab725ce520640bc3c8b3c1f41b8",
-        "iconColor.grey": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
-        "iconColor.lightGrey": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
         "strokeColor.neutral": "890a17d05dbc0078390c912d96bdbbb1b10954d5",
         "strokeColor.dark": "4162ef9f738fce5635606192aae720eca25e8820",
         "strokeColor.light": "355c19b2ca01ce9157247e87f874822df50ed1bf",
-        "strokeColor.disabled": "f278a54d0292f74dc46b498980ce8fd6010f84c0",
         "strokeColor.primary": "f3f4db44b82b1428c5bad2161650e0d6c8362869",
         "strokeColor.red": "fa6a129fea69c138ec71d6d0170ba9d24030438a",
         "strokeColor.orange": "c2755366a2042445e858f9d92699ca39753e85b0",
         "strokeColor.green": "57e9c37a6faff009e79b959d9f2bbdf91ae05515",
-        "strokeColor.grey": "519c82b6f1588d9ecdc5609591984811b347fce0",
-        "strokeColor.lightGrey": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
         "strokeColor.lightPrimaryAlt": "6cce614d27143837f0d6e10a6556f78be944109b",
-        "strokeColor.lightGreyAlt": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
         "button.primary.default": "f97566ddc3be60b711117b68d8282b319d7ed74e",
         "button.primary.dp-default": "011a371a6302e3848e961299f959719cd82cb0a2",
         "button.primary.hover": "bbef73deea99f571961f752169d5dd896a3794f4",
@@ -14027,7 +13984,12 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
+        "iconColor.grey01": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
+        "iconColor.grey02": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
+        "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
+        "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
+        "strokeColor.grey03": "519c82b6f1588d9ecdc5609591984811b347fce0"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -14153,8 +14115,6 @@
         "iconColor.neutralDark": "275ac24ca0c0b1c2e9833a00ee679a0bfde970ff",
         "iconColor.light": "978508fc0ff2b57ce44d1c8c40a0c4c62f85a404",
         "iconColor.neutral": "4f27072be8367088ca3d92ab5d959debf75ea8ae",
-        "iconColor.placeholder": "bdda1e1f0e83f2a6a4e45b8ef4d52090b7b64c27",
-        "iconColor.disabled": "6292deaddb5fd63fa0ef89ba5c2a5f96c4b18024",
         "iconColor.primary": "9e2226e00cbd6efe81d32b52ab07ae138e7cc8d4",
         "iconColor.primaryNeutral": "eeed1de95567fc2c94acb6bcf8e8d8fbce0e81a8",
         "iconColor.lightPrimary": "595ab03b3674b5c82bf1b1ae96b5152fb5265f06",
@@ -14163,20 +14123,14 @@
         "iconColor.red": "38c862173087447cec951b0eaabab8b519cc768c",
         "iconColor.orange": "a6628a4c5f6b737b0c0adf92958d260840341964",
         "iconColor.green": "f31ab4198a79aab725ce520640bc3c8b3c1f41b8",
-        "iconColor.grey": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
-        "iconColor.lightGrey": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
         "strokeColor.neutral": "890a17d05dbc0078390c912d96bdbbb1b10954d5",
         "strokeColor.dark": "4162ef9f738fce5635606192aae720eca25e8820",
         "strokeColor.light": "355c19b2ca01ce9157247e87f874822df50ed1bf",
-        "strokeColor.disabled": "f278a54d0292f74dc46b498980ce8fd6010f84c0",
         "strokeColor.primary": "f3f4db44b82b1428c5bad2161650e0d6c8362869",
         "strokeColor.lightPrimaryAlt": "6cce614d27143837f0d6e10a6556f78be944109b",
         "strokeColor.red": "fa6a129fea69c138ec71d6d0170ba9d24030438a",
         "strokeColor.orange": "c2755366a2042445e858f9d92699ca39753e85b0",
         "strokeColor.green": "57e9c37a6faff009e79b959d9f2bbdf91ae05515",
-        "strokeColor.grey": "519c82b6f1588d9ecdc5609591984811b347fce0",
-        "strokeColor.lightGrey": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
-        "strokeColor.lightGreyAlt": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
         "shadow.op1": "26b826522792465a945e84d5d286699c9b828411",
         "shadow.op2": "5a1812c2eaf62c749836c39e2afdc4e3704a400e",
         "shadow.op3": "2b11d70b7803ff83508b2b88874002886c39b229",
@@ -14189,7 +14143,12 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
+        "iconColor.grey01": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
+        "iconColor.grey02": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
+        "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
+        "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
+        "strokeColor.grey03": "519c82b6f1588d9ecdc5609591984811b347fce0"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:27"
