@@ -626,7 +626,7 @@
         "type": "color"
       },
       "red55": {
-        "value": "#EB5757",
+        "value": "#CE5C58",
         "type": "color",
         "description": "red main color"
       },
@@ -878,7 +878,7 @@
         "type": "color"
       },
       "green55": {
-        "value": "#1fbe42",
+        "value": "#5D9D8D",
         "type": "color",
         "description": "green main color"
       },
@@ -3523,6 +3523,10 @@
         "type": "color",
         "description": "can be use for general or text link"
       },
+      "tertiaryDark": {
+        "value": "#1E4740",
+        "type": "color"
+      },
       "danger": {
         "value": "{sem.red55}",
         "type": "color"
@@ -3587,6 +3591,10 @@
         "value": "{tertiary.tertiary90}",
         "type": "color"
       },
+      "tertiary": {
+        "value": "#1E4740",
+        "type": "color"
+      },
       "orange": {
         "value": "{sem.orange55}",
         "type": "color"
@@ -3608,7 +3616,7 @@
         "type": "color"
       },
       "lightGreen": {
-        "value": "{sem.green100}",
+        "value": "#E6FBEB",
         "type": "color"
       },
       "red": {
@@ -3819,6 +3827,10 @@
         "value": "{primary.primary90}",
         "type": "color"
       },
+      "tertiaryDark": {
+        "value": "#1E4740",
+        "type": "color"
+      },
       "lightRed": {
         "value": "{sem.red65}",
         "type": "color"
@@ -4021,6 +4033,10 @@
       },
       "success": {
         "value": "{sem.green55}",
+        "type": "color"
+      },
+      "tertiaryDark": {
+        "value": "#1E4740",
         "type": "color"
       }
     },
@@ -4263,6 +4279,10 @@
             }
           }
         }
+      },
+      "tertiary": {
+        "value": "#1E4740",
+        "type": "color"
       }
     },
     "iconColor": {
@@ -4330,6 +4350,10 @@
       },
       "grey01": {
         "value": "{neutral.neutral55}",
+        "type": "color"
+      },
+      "tertiaryDark": {
+        "value": "#1E4740",
         "type": "color"
       }
     },
@@ -13631,26 +13655,6 @@
         "primary.primary10": "347483771325b5d4a739a340e473f96bec97396d",
         "primary.primary05": "07975d69ed4e12d9bd513b2d7f9ac2122393f9b1",
         "primary.primary0": "987390768c54b15e5e6ba2d4d28531a256922eda",
-        "secondary.secondary100": "556ff3ff6e67d6a1231081bec5d2db81fe1c693d",
-        "secondary.secondary95": "2eb637ab22bf5f0b568fe9734a7b456897228951",
-        "secondary.secondary90": "f140f0efdf417378aa70385a621a2271810704a4",
-        "secondary.secondary85": "81bc36973c2c2be319de0d64593a6f8de091d601",
-        "secondary.secondary80": "0bc5d68e0ad241fd86263036fa8d1347a8b45f86",
-        "secondary.secondary75": "81f53f6993ab01cd17e5e30ebb2159df6f914120",
-        "secondary.secondary70": "21b35061a70f87e86915f930d60fee7180cefbe8",
-        "secondary.secondary65": "a8044891464151d73d736178c98e4fd3191494bf",
-        "secondary.secondary60": "ecd7656740949cad6f6199040463821efd17e0ce",
-        "secondary.secondary55": "82b9b040b456523bc92b6d74412bdc7e436839a3",
-        "secondary.secondary50": "2177657c59305c25c0ef2681232f591ee674bd4f",
-        "secondary.secondary45": "c852e7e64aeb206a204988142cb91aea79bef132",
-        "secondary.secondary40": "2a498048f7e044b21b003d243e1cf43c59403943",
-        "secondary.secondary35": "d7261f3a0811f360d6a535cb80932b084f54ca34",
-        "secondary.secondary30": "13a9cb636746f197b644e489a51db1fd5f3a67fe",
-        "secondary.secondary25": "a42cc8e116520aa08b3fb75650d7577578503740",
-        "secondary.secondary20": "54fee45f783c359d70da8bdcb879772efa89d26d",
-        "secondary.secondary10": "f3b11a2ecb05ac73bb0ebe0290061a957d52f89a",
-        "secondary.secondary05": "2c4f7b18f640cb5f2fd6f9919618d005ab75e4c1",
-        "secondary.secondary0": "e43936bfb4f8f6934e62d820b66d45e761bd013f",
         "sem.orange100": "acb4bda06a0814ab621e416ef30067a259f04088",
         "sem.orange95": "5c16d82dd4460902ed487afe9b8fd9134dd77ec1",
         "sem.orange90": "95b5193a3d3acba6e7303b30844012a0e5a4610e",
@@ -13771,6 +13775,26 @@
         "transparentDark.opacity88": "8136917dc8e95d6ea0da6b5c3b1eef6f2b170b5e",
         "transparentDark.opacity90": "5272860b42785a588a86a6ebd550d52b0cdcea64",
         "transparentDark.opacity94": "36e68fbb995ef1b727bc94c70111fce7b2b0e1fe",
+        "transparentLight.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
+        "transparentLight.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
+        "transparentLight.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
+        "transparentLight.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
+        "transparentLight.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
+        "transparentLight.opacity16": "29dd504821027653366808928e4bde381547f8f8",
+        "transparentLight.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
+        "transparentLight.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
+        "transparentLight.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
+        "transparentLight.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
+        "transparentLight.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
+        "transparentLight.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
+        "transparentLight.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
+        "transparentLight.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
+        "transparentLight.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
+        "transparentLight.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
+        "transparentLight.opacity84": "5b09473e919a113be28e468e298642661424beb8",
+        "transparentLight.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
+        "transparentLight.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
+        "transparentLight.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4",
         "transparentPrimary.opacity04": "176a09c156f48ec47f5e6b34dc0ace83b5a5e143",
         "transparentPrimary.opacity08": "47a5ed56b357e729c193598768b8a50fdbf4152c",
         "transparentPrimary.opacity10": "7c14278bdbce6c106558f6fdeb0977dfe35d95ea",
@@ -13810,27 +13834,7 @@
         "tertiary.tertiary20": "00ceda5fb80d7bd54d3b8723022570bb09bce9cd",
         "tertiary.tertiary10": "65c1a37f6010f1383f8de1834f7359d51d729c04",
         "tertiary.tertiary05": "813d5de55f146785379669775c6fd4daf834c6de",
-        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a",
-        "transparentLight2.opacity04": "53c5ec7e9a2f66d7f23f6f0853ed54c3cacb5739",
-        "transparentLight2.opacity08": "d805c507f4249c9d908afe792e4e742db2554d13",
-        "transparentLight2.opacity10": "941ebc954a1c3be6213dc9a8876ba47322fba085",
-        "transparentLight2.opacity12": "05717c5a57f14ba1ad79ccf512bd11089e11b502",
-        "transparentLight2.opacity14": "b4743edfbc32dec6e9595f86fb18c9e877623576",
-        "transparentLight2.opacity16": "29dd504821027653366808928e4bde381547f8f8",
-        "transparentLight2.opacity18": "a670ae321366a495c1b1db5bf2ab881d0883930b",
-        "transparentLight2.opacity20": "b330de11f70fc7419f5143595382c55d86f3c7ae",
-        "transparentLight2.opacity24": "bc27722e33ddab4eb641a555f4bfdf9fdd23da7f",
-        "transparentLight2.opacity28": "e0a82751a1dd690d46f7e3c9912c134703470de9",
-        "transparentLight2.opacity60": "3840121d261149dc38668470966a923eb83e17a1",
-        "transparentLight2.opacity64": "80af7488ac6b06dd8c67b7a3760526f9a84ba861",
-        "transparentLight2.opacity68": "e2415fbe8d1288f225523170b5789f60d00eee37",
-        "transparentLight2.opacity74": "22f116239250a76b877027bfeff27a56efecfee5",
-        "transparentLight2.opacity78": "b4ead9b6ce72793ce4e91c738e6e990278334ee5",
-        "transparentLight2.opacity80": "22650a36785bd517b6fff07ae74f70e00b48a446",
-        "transparentLight2.opacity84": "5b09473e919a113be28e468e298642661424beb8",
-        "transparentLight2.opacity88": "1a6774ce7d4c15d07b5aeeb118e0af362cdf023f",
-        "transparentLight2.opacity90": "c80f24e2f61b198b14f8af2b1ed85bee4787808c",
-        "transparentLight2.opacity94": "e2a818287995b4901cae01b4c9e93c25d39f71d4"
+        "tertiary.tertiary0": "7eb8c8bf120fab37809a9eff0785d04dea8f850a"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1660",
       "$figmaModeId": "2004:22"
@@ -13915,6 +13919,8 @@
         "iconColor.red": "38c862173087447cec951b0eaabab8b519cc768c",
         "iconColor.orange": "a6628a4c5f6b737b0c0adf92958d260840341964",
         "iconColor.green": "f31ab4198a79aab725ce520640bc3c8b3c1f41b8",
+        "iconColor.grey02": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
+        "iconColor.grey01": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
         "strokeColor.neutral": "890a17d05dbc0078390c912d96bdbbb1b10954d5",
         "strokeColor.dark": "4162ef9f738fce5635606192aae720eca25e8820",
         "strokeColor.light": "355c19b2ca01ce9157247e87f874822df50ed1bf",
@@ -13922,7 +13928,10 @@
         "strokeColor.red": "fa6a129fea69c138ec71d6d0170ba9d24030438a",
         "strokeColor.orange": "c2755366a2042445e858f9d92699ca39753e85b0",
         "strokeColor.green": "57e9c37a6faff009e79b959d9f2bbdf91ae05515",
+        "strokeColor.grey03": "519c82b6f1588d9ecdc5609591984811b347fce0",
+        "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
         "strokeColor.lightPrimaryAlt": "6cce614d27143837f0d6e10a6556f78be944109b",
+        "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
         "button.primary.default": "f97566ddc3be60b711117b68d8282b319d7ed74e",
         "button.primary.dp-default": "011a371a6302e3848e961299f959719cd82cb0a2",
         "button.primary.hover": "bbef73deea99f571961f752169d5dd896a3794f4",
@@ -13931,14 +13940,6 @@
         "button.primary.dp-selected": "2633cc140779b8af74ac9d3ec3155173a05c7752",
         "button.primary.disabled": "b71632cd2fc5b76c62a98abc2cda3c3f0fe641bc",
         "button.primary.dp-disabled": "44c6efb66a997aae7476fcee522c50e9a82932e3",
-        "button.secondary.default": "d214b9fcdf7dcac504865d6711fcbe6f8a020af1",
-        "button.secondary.dp-default": "2895e9e7b7ae00fa4e454137d221bf718d6d1c15",
-        "button.secondary.hover": "65f7f99d0ad1c27fec8cf99c3a03babc99c25ddf",
-        "button.secondary.focused": "81ce9fa5910b1fca57e8f99a339de39c0b0f586b",
-        "button.secondary.selected": "44b90a8755d9e9c4847317d82e935929b9d2a9b6",
-        "button.secondary.dp-selected": "0dc0efed5dcff8d8ca449f458a82b9c2cbc8c926",
-        "button.secondary.disabled": "0e58563d3e5e98325be078035779b8ac36cf0782",
-        "button.secondary.dp-disabled": "75846d8bf28a021eb551a1b0ac7145c3c277e558",
         "button.primaryOutline.stroke": "18e4802306c7ebe877b14bebb0baf60dcf71fc4c",
         "button.primaryOutline.default": "840ef8fef668fd5260406781bf54e0e0d3130a9c",
         "button.primaryOutline.hover": "8a8673584198c72f2d84f52bcbe6171fdd273dc1",
@@ -13946,13 +13947,6 @@
         "button.primaryOutline.selected": "7ee5b2edf99fd4a7bbcd6af2d677406b14388ab8",
         "button.primaryOutline.strokeDisable": "a88118285fad62cc4c76881ed9efcb8a8c379ca2",
         "button.primaryOutline.disable": "73a508d8eaa39823696edba5f150543deb188679",
-        "button.secondaryOutline.stroke": "4298191923fa7c120880286e146dc8f69102248d",
-        "button.secondaryOutline.default": "913c0d8debc0c315d20977394a33ce2ab430c3a4",
-        "button.secondaryOutline.hover": "61eb14bbdbb929eb7cc5d40c61e3beeebb2e1dd1",
-        "button.secondaryOutline.focused": "2a77bda033db5280624883f860d872cf46bf6320",
-        "button.secondaryOutline.selected": "483f0af694768536b2c07195bc2306659ea34e97",
-        "button.secondaryOutline.strokeDisabled": "2a1451a376935497320dbfe39ee72dc05f1ba4bf",
-        "button.secondaryOutline.disable": "a4738a3ecd3f7fcf9b6e2cecb5a136ba29e47065",
         "button.neutral.default": "a80e11f6e544d5cf9805a930728f248f005905f6",
         "button.neutral.hover": "adb631ad940da90a1bccc9a02dc9f401dddc3300",
         "button.neutral.focused": "cf7727a638dd7e5a3d2a4c5e8f05a8faaca8da00",
@@ -13985,11 +13979,9 @@
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
         "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
-        "iconColor.grey01": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
-        "iconColor.grey02": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
-        "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
-        "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
-        "strokeColor.grey03": "519c82b6f1588d9ecdc5609591984811b347fce0"
+        "bgColor.tertiary": "5388b2cb1293db587bfd4e314c8f28b59c1174c6",
+        "textColor.tertiaryDark": "8cad909712570f87c470d252925b80bb306076bb",
+        "iconColor.tertiaryDark": "23d834af2ddc7746937b06a2449b05c2881b5547"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -14012,14 +14004,6 @@
         "button.primary.dp-selected": "2633cc140779b8af74ac9d3ec3155173a05c7752",
         "button.primary.disabled": "b71632cd2fc5b76c62a98abc2cda3c3f0fe641bc",
         "button.primary.dp-disabled": "44c6efb66a997aae7476fcee522c50e9a82932e3",
-        "button.secondary.default": "d214b9fcdf7dcac504865d6711fcbe6f8a020af1",
-        "button.secondary.dp-default": "2895e9e7b7ae00fa4e454137d221bf718d6d1c15",
-        "button.secondary.hover": "65f7f99d0ad1c27fec8cf99c3a03babc99c25ddf",
-        "button.secondary.focused": "81ce9fa5910b1fca57e8f99a339de39c0b0f586b",
-        "button.secondary.selected": "44b90a8755d9e9c4847317d82e935929b9d2a9b6",
-        "button.secondary.dp-selected": "0dc0efed5dcff8d8ca449f458a82b9c2cbc8c926",
-        "button.secondary.disabled": "0e58563d3e5e98325be078035779b8ac36cf0782",
-        "button.secondary.dp-disabled": "75846d8bf28a021eb551a1b0ac7145c3c277e558",
         "button.primaryOutline.stroke": "18e4802306c7ebe877b14bebb0baf60dcf71fc4c",
         "button.primaryOutline.default": "840ef8fef668fd5260406781bf54e0e0d3130a9c",
         "button.primaryOutline.hover": "8a8673584198c72f2d84f52bcbe6171fdd273dc1",
@@ -14027,13 +14011,6 @@
         "button.primaryOutline.selected": "7ee5b2edf99fd4a7bbcd6af2d677406b14388ab8",
         "button.primaryOutline.strokeDisable": "a88118285fad62cc4c76881ed9efcb8a8c379ca2",
         "button.primaryOutline.disable": "73a508d8eaa39823696edba5f150543deb188679",
-        "button.secondaryOutline.stroke": "4298191923fa7c120880286e146dc8f69102248d",
-        "button.secondaryOutline.default": "913c0d8debc0c315d20977394a33ce2ab430c3a4",
-        "button.secondaryOutline.hover": "61eb14bbdbb929eb7cc5d40c61e3beeebb2e1dd1",
-        "button.secondaryOutline.focused": "2a77bda033db5280624883f860d872cf46bf6320",
-        "button.secondaryOutline.selected": "483f0af694768536b2c07195bc2306659ea34e97",
-        "button.secondaryOutline.strokeDisabled": "2a1451a376935497320dbfe39ee72dc05f1ba4bf",
-        "button.secondaryOutline.disable": "a4738a3ecd3f7fcf9b6e2cecb5a136ba29e47065",
         "button.neutral.default": "a80e11f6e544d5cf9805a930728f248f005905f6",
         "button.neutral.hover": "adb631ad940da90a1bccc9a02dc9f401dddc3300",
         "button.neutral.focused": "cf7727a638dd7e5a3d2a4c5e8f05a8faaca8da00",
@@ -14065,6 +14042,7 @@
         "textColor.primaryNeutral": "1771838800e527ee83b5ebfa25f5903f0093c5c6",
         "textColor.primarySelected": "b2e2664a0dc414e63f644681f5ab98fcc1ee2e9e",
         "textColor.tertiary": "23a33c8148d6fa1b09e5bb11dce73d81fd5898a6",
+        "textColor.tertiaryDark": "8cad909712570f87c470d252925b80bb306076bb",
         "textColor.danger": "4703b445facf3f47db980bc779651bea0b098287",
         "textColor.warning": "440664f1b846192a514c28e51a0c7083023889ed",
         "textColor.success": "5211dc1f25f8cdb8ba6ed952075c18b3493dc204",
@@ -14080,6 +14058,7 @@
         "bgColor.primaryDark": "c8120f03ff4b7c8c1735a34873a029d999912c15",
         "bgColor.primaryDarkAlt": "6e3b66ee9e5294c5f89ec0ef199c0971dd9571fe",
         "bgColor.lightTertiaryAlt": "b280501da7388b87122a95ea105f93eeb2b9f387",
+        "bgColor.tertiary": "5388b2cb1293db587bfd4e314c8f28b59c1174c6",
         "bgColor.orange": "1860eba94e875a19dfd88f39c776703bafc56b3b",
         "bgColor.orangeDark": "6835e7b7a640311935865733cbbdfc008c62b773",
         "bgColor.lightOrange": "faa6bb4a83add01ae4e575be527ed4a3438c17d8",
@@ -14119,10 +14098,13 @@
         "iconColor.primaryNeutral": "eeed1de95567fc2c94acb6bcf8e8d8fbce0e81a8",
         "iconColor.lightPrimary": "595ab03b3674b5c82bf1b1ae96b5152fb5265f06",
         "iconColor.lightPrimaryAlt": "c0ae176c469382bae57be0b5f7be62e41e80d65c",
+        "iconColor.tertiaryDark": "23d834af2ddc7746937b06a2449b05c2881b5547",
         "iconColor.lightRed": "6b0cec45d1c2c37f802af9a13630107196fcb1d6",
         "iconColor.red": "38c862173087447cec951b0eaabab8b519cc768c",
         "iconColor.orange": "a6628a4c5f6b737b0c0adf92958d260840341964",
         "iconColor.green": "f31ab4198a79aab725ce520640bc3c8b3c1f41b8",
+        "iconColor.grey02": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
+        "iconColor.grey01": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
         "strokeColor.neutral": "890a17d05dbc0078390c912d96bdbbb1b10954d5",
         "strokeColor.dark": "4162ef9f738fce5635606192aae720eca25e8820",
         "strokeColor.light": "355c19b2ca01ce9157247e87f874822df50ed1bf",
@@ -14131,6 +14113,9 @@
         "strokeColor.red": "fa6a129fea69c138ec71d6d0170ba9d24030438a",
         "strokeColor.orange": "c2755366a2042445e858f9d92699ca39753e85b0",
         "strokeColor.green": "57e9c37a6faff009e79b959d9f2bbdf91ae05515",
+        "strokeColor.grey03": "519c82b6f1588d9ecdc5609591984811b347fce0",
+        "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
+        "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
         "shadow.op1": "26b826522792465a945e84d5d286699c9b828411",
         "shadow.op2": "5a1812c2eaf62c749836c39e2afdc4e3704a400e",
         "shadow.op3": "2b11d70b7803ff83508b2b88874002886c39b229",
@@ -14143,12 +14128,7 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
-        "iconColor.grey01": "8cf0e4f1a6b080c5a12d44494e5c98db1cdc9297",
-        "iconColor.grey02": "9106321bd0e44e50a9b0c00cfb2568c97ef8a756",
-        "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
-        "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
-        "strokeColor.grey03": "519c82b6f1588d9ecdc5609591984811b347fce0"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:27"
