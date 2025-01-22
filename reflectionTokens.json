@@ -1791,7 +1791,8 @@
           "fontWeight": "{fontWeights.light}",
           "lineHeight": "{lineHeights.xl}",
           "fontSize": "{fontSize.lg}",
-          "letterSpacing": "{letterSpacing.md}"
+          "letterSpacing": "{letterSpacing.md}",
+          "paragraphSpacing": "{paragraphSpacing.lg}"
         },
         "type": "typography"
       },
@@ -12388,6 +12389,28 @@
         "value": "uppercase",
         "type": "textCase"
       }
+    },
+    "paragraphSpacing": {
+      "xs": {
+        "value": "4",
+        "type": "paragraphSpacing"
+      },
+      "sm": {
+        "value": "{paragraphSpacing.xs} + 2",
+        "type": "paragraphSpacing"
+      },
+      "smd": {
+        "value": "{paragraphSpacing.sm} + 2",
+        "type": "paragraphSpacing"
+      },
+      "md": {
+        "value": "{paragraphSpacing.smd} + 2",
+        "type": "paragraphSpacing"
+      },
+      "lg": {
+        "value": "{paragraphSpacing.md} + 2",
+        "type": "paragraphSpacing"
+      }
     }
   },
   "typography/ minimalist": {
@@ -12483,6 +12506,28 @@
       "uppercase": {
         "value": "uppercase",
         "type": "textCase"
+      }
+    },
+    "paragraphSpacing": {
+      "xs": {
+        "value": "4",
+        "type": "paragraphSpacing"
+      },
+      "sm": {
+        "value": "{paragraphSpacing.xs} + 2",
+        "type": "paragraphSpacing"
+      },
+      "smd": {
+        "value": "{paragraphSpacing.sm} + 2",
+        "type": "paragraphSpacing"
+      },
+      "md": {
+        "value": "{paragraphSpacing.smd} + 2",
+        "type": "paragraphSpacing"
+      },
+      "lg": {
+        "value": "{paragraphSpacing.md} + 2",
+        "type": "paragraphSpacing"
       }
     }
   },
@@ -12580,6 +12625,28 @@
         "value": "uppercase",
         "type": "textCase"
       }
+    },
+    "paragraphSpacing": {
+      "xs": {
+        "value": "4",
+        "type": "paragraphSpacing"
+      },
+      "sm": {
+        "value": "{paragraphSpacing.xs} + 2",
+        "type": "paragraphSpacing"
+      },
+      "smd": {
+        "value": "{paragraphSpacing.sm} + 2",
+        "type": "paragraphSpacing"
+      },
+      "md": {
+        "value": "{paragraphSpacing.smd} + 2",
+        "type": "paragraphSpacing"
+      },
+      "lg": {
+        "value": "{paragraphSpacing.md} + 2",
+        "type": "paragraphSpacing"
+      }
     }
   },
   "typography/ classic": {
@@ -12675,6 +12742,28 @@
       "uppercase": {
         "value": "uppercase",
         "type": "textCase"
+      }
+    },
+    "paragraphSpacing": {
+      "xs": {
+        "value": "4",
+        "type": "paragraphSpacing"
+      },
+      "sm": {
+        "value": "{paragraphSpacing.xs} + 2",
+        "type": "paragraphSpacing"
+      },
+      "smd": {
+        "value": "{paragraphSpacing.sm} + 2",
+        "type": "paragraphSpacing"
+      },
+      "md": {
+        "value": "{paragraphSpacing.smd} + 2",
+        "type": "paragraphSpacing"
+      },
+      "lg": {
+        "value": "{paragraphSpacing.md} + 2",
+        "type": "paragraphSpacing"
       }
     }
   },
@@ -14842,13 +14931,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "fontFamilies.primary": "1439e9a201b734f56bf70e30abbede688f11e356",
-        "fontFamilies.secondary": "dacf7c388d1730699ee1cfcab3f5f5c93c3e006d",
-        "fontWeights.light": "8d747ee750f9a86111389462cdadb4ea64373128",
-        "fontWeights.regular": "5092fce478403b6f26091b334561a43309cc1c1e",
-        "fontWeights.semiBold": "1680f8827b1753c9da44225bee428dc79438b394",
-        "fontWeights.bold": "9386e00c48869724233942d63901e0cefdbf5f2a",
-        "fontWeights.extraBold": "da3abe3b388eb8736dea3cf6cd233f8fe6531961",
         "letterSpacing.xxxsm": "3a79733db2a2174d45fff3b1f9bf7b3b13aecc5a",
         "letterSpacing.xxsm": "020880dc58ccbece0403a5a8531ced0d88ab7eb3",
         "letterSpacing.xsm": "bbc58fd3f847f360cc3c31b3a125e6c891afe6b5",
@@ -14858,7 +14940,12 @@
         "letterSpacing.xl": "7c11f5a3a2835079e09a4d02c4d09fa88467fd72",
         "letterSpacing.xxl": "c69689bcc23251a29b07fb0692745c0261098913",
         "letterSpacing.xxxl": "6d2c684ab44ccac6dfd1ae948f4420ad26928ea7",
-        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d"
+        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d",
+        "paragraphSpacing.xs": "8d49351be92d048e23845fb5d851d49b19e07b26",
+        "paragraphSpacing.sm": "06c0772fbd1e5ed83caa664d83c525fe546da633",
+        "paragraphSpacing.smd": "f921d388aaf9fa299e5a2294e70bfa1e90384cfa",
+        "paragraphSpacing.md": "5840860133e9f9ba3825b3ddf0f63f2893a7149b",
+        "paragraphSpacing.lg": "905cad478c6b662f9eb9c2c94fdb8692019b72a0"
       },
       "$figmaCollectionId": "VariableCollectionId:2002:1059",
       "$figmaModeId": "2002:6"
@@ -15037,13 +15124,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "fontFamilies.primary": "1439e9a201b734f56bf70e30abbede688f11e356",
-        "fontFamilies.secondary": "dacf7c388d1730699ee1cfcab3f5f5c93c3e006d",
-        "fontWeights.light": "8d747ee750f9a86111389462cdadb4ea64373128",
-        "fontWeights.regular": "5092fce478403b6f26091b334561a43309cc1c1e",
-        "fontWeights.semiBold": "1680f8827b1753c9da44225bee428dc79438b394",
-        "fontWeights.bold": "9386e00c48869724233942d63901e0cefdbf5f2a",
-        "fontWeights.extraBold": "da3abe3b388eb8736dea3cf6cd233f8fe6531961",
         "letterSpacing.xxxsm": "3a79733db2a2174d45fff3b1f9bf7b3b13aecc5a",
         "letterSpacing.xxsm": "020880dc58ccbece0403a5a8531ced0d88ab7eb3",
         "letterSpacing.xsm": "bbc58fd3f847f360cc3c31b3a125e6c891afe6b5",
@@ -15053,7 +15133,12 @@
         "letterSpacing.xl": "7c11f5a3a2835079e09a4d02c4d09fa88467fd72",
         "letterSpacing.xxl": "c69689bcc23251a29b07fb0692745c0261098913",
         "letterSpacing.xxxl": "6d2c684ab44ccac6dfd1ae948f4420ad26928ea7",
-        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d"
+        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d",
+        "paragraphSpacing.xs": "8d49351be92d048e23845fb5d851d49b19e07b26",
+        "paragraphSpacing.sm": "06c0772fbd1e5ed83caa664d83c525fe546da633",
+        "paragraphSpacing.smd": "f921d388aaf9fa299e5a2294e70bfa1e90384cfa",
+        "paragraphSpacing.md": "5840860133e9f9ba3825b3ddf0f63f2893a7149b",
+        "paragraphSpacing.lg": "905cad478c6b662f9eb9c2c94fdb8692019b72a0"
       },
       "$figmaCollectionId": "VariableCollectionId:2002:1059",
       "$figmaModeId": "2002:11"
@@ -15068,13 +15153,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "fontFamilies.primary": "1439e9a201b734f56bf70e30abbede688f11e356",
-        "fontFamilies.secondary": "dacf7c388d1730699ee1cfcab3f5f5c93c3e006d",
-        "fontWeights.light": "8d747ee750f9a86111389462cdadb4ea64373128",
-        "fontWeights.regular": "5092fce478403b6f26091b334561a43309cc1c1e",
-        "fontWeights.semiBold": "1680f8827b1753c9da44225bee428dc79438b394",
-        "fontWeights.bold": "9386e00c48869724233942d63901e0cefdbf5f2a",
-        "fontWeights.extraBold": "da3abe3b388eb8736dea3cf6cd233f8fe6531961",
         "letterSpacing.xxxsm": "3a79733db2a2174d45fff3b1f9bf7b3b13aecc5a",
         "letterSpacing.xxsm": "020880dc58ccbece0403a5a8531ced0d88ab7eb3",
         "letterSpacing.xsm": "bbc58fd3f847f360cc3c31b3a125e6c891afe6b5",
@@ -15084,7 +15162,12 @@
         "letterSpacing.xl": "7c11f5a3a2835079e09a4d02c4d09fa88467fd72",
         "letterSpacing.xxl": "c69689bcc23251a29b07fb0692745c0261098913",
         "letterSpacing.xxxl": "6d2c684ab44ccac6dfd1ae948f4420ad26928ea7",
-        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d"
+        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d",
+        "paragraphSpacing.xs": "8d49351be92d048e23845fb5d851d49b19e07b26",
+        "paragraphSpacing.sm": "06c0772fbd1e5ed83caa664d83c525fe546da633",
+        "paragraphSpacing.smd": "f921d388aaf9fa299e5a2294e70bfa1e90384cfa",
+        "paragraphSpacing.md": "5840860133e9f9ba3825b3ddf0f63f2893a7149b",
+        "paragraphSpacing.lg": "905cad478c6b662f9eb9c2c94fdb8692019b72a0"
       },
       "$figmaCollectionId": "VariableCollectionId:2002:1059",
       "$figmaModeId": "2002:12"
@@ -15099,13 +15182,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "fontFamilies.primary": "1439e9a201b734f56bf70e30abbede688f11e356",
-        "fontFamilies.secondary": "dacf7c388d1730699ee1cfcab3f5f5c93c3e006d",
-        "fontWeights.light": "8d747ee750f9a86111389462cdadb4ea64373128",
-        "fontWeights.regular": "5092fce478403b6f26091b334561a43309cc1c1e",
-        "fontWeights.semiBold": "1680f8827b1753c9da44225bee428dc79438b394",
-        "fontWeights.bold": "9386e00c48869724233942d63901e0cefdbf5f2a",
-        "fontWeights.extraBold": "da3abe3b388eb8736dea3cf6cd233f8fe6531961",
         "letterSpacing.xxxsm": "3a79733db2a2174d45fff3b1f9bf7b3b13aecc5a",
         "letterSpacing.xxsm": "020880dc58ccbece0403a5a8531ced0d88ab7eb3",
         "letterSpacing.xsm": "bbc58fd3f847f360cc3c31b3a125e6c891afe6b5",
@@ -15115,7 +15191,12 @@
         "letterSpacing.xl": "7c11f5a3a2835079e09a4d02c4d09fa88467fd72",
         "letterSpacing.xxl": "c69689bcc23251a29b07fb0692745c0261098913",
         "letterSpacing.xxxl": "6d2c684ab44ccac6dfd1ae948f4420ad26928ea7",
-        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d"
+        "letterSpacing.4xl": "c19fb51585609aaa30fce65a92d407d249a2603d",
+        "paragraphSpacing.xs": "8d49351be92d048e23845fb5d851d49b19e07b26",
+        "paragraphSpacing.sm": "06c0772fbd1e5ed83caa664d83c525fe546da633",
+        "paragraphSpacing.smd": "f921d388aaf9fa299e5a2294e70bfa1e90384cfa",
+        "paragraphSpacing.md": "5840860133e9f9ba3825b3ddf0f63f2893a7149b",
+        "paragraphSpacing.lg": "905cad478c6b662f9eb9c2c94fdb8692019b72a0"
       },
       "$figmaCollectionId": "VariableCollectionId:2002:1059",
       "$figmaModeId": "2002:13"
