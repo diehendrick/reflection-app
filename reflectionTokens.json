@@ -3479,7 +3479,7 @@
         "description": "original: {neutral.neutral45}"
       },
       "secDefault": {
-        "value": "{neutral.neutral60}",
+        "value": "{bgColor.grey}",
         "type": "color"
       },
       "neutral": {
@@ -3642,6 +3642,10 @@
       },
       "lightGrey": {
         "value": "{neutral.neutral95}",
+        "type": "color"
+      },
+      "lightGreyAlt": {
+        "value": "#DFDFE8",
         "type": "color"
       },
       "overlayDark20": {
@@ -4090,7 +4094,7 @@
         "type": "color"
       },
       "lightTertiaryAlt": {
-        "value": "{tertiary.tertiary35}",
+        "value": "{tertiary.tertiary90}",
         "type": "color"
       },
       "orange": {
@@ -4139,6 +4143,10 @@
       },
       "lightGrey": {
         "value": "{neutral.neutral20}",
+        "type": "color"
+      },
+      "lightGreyAlt": {
+        "value": "{neutral.neutral10}",
         "type": "color"
       },
       "overlayDark20": {
@@ -13978,6 +13986,7 @@
         "bgColor.lightRedAlt": "16a0b2fa39a524dd5792136ec8a4d807ac33305f",
         "bgColor.grey": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
         "bgColor.lightGrey": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
+        "bgColor.lightGreyAlt": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
         "bgColor.overlayDark80": "0360a302da58db6546428b13f23c452238b9497d",
         "bgColor.overlayLight04": "451586b6bfaf6d850bf1fef33da612114ec54c1b",
@@ -14160,6 +14169,7 @@
         "bgColor.lightRed": "a399172189c366b1029411ff61f4f44143c8d171",
         "bgColor.grey": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
         "bgColor.lightGrey": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
+        "bgColor.lightGreyAlt": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
         "bgColor.overlayDark80": "0360a302da58db6546428b13f23c452238b9497d",
         "bgColor.overlayDark90": "723e98c35b0276afa5d83378ca9873ebe2ab871c",
