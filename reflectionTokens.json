@@ -3971,6 +3971,10 @@
         "value": "#F3E2E6",
         "type": "color",
         "description": "as level 5"
+      },
+      "strokeOasis": {
+        "value": "linear-gradient(135deg, #BDD6EA 15%, #D0C2EB 23%, #CEB9E7 48%, #E2BEB6 70%, #DCA7B3 93%);",
+        "type": "color"
       }
     }
   },
@@ -4626,6 +4630,10 @@
         "value": "#1E1B30",
         "type": "color",
         "description": "as level 5"
+      },
+      "strokeOasis": {
+        "value": "linear-gradient(135deg, #4C718F 14.5%, #6B1BC7 38%, #572E26 63.5%, #931533 89%);",
+        "type": "color"
       }
     }
   },
