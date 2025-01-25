@@ -4122,7 +4122,7 @@
         "type": "color"
       },
       "red": {
-        "value": "{sem.red55}",
+        "value": "#B75C5C",
         "type": "color"
       },
       "redDark": {
