@@ -3943,7 +3943,7 @@
       }
     },
     "gradient": {
-      "refelaction": {
+      "bgColorOasis": {
         "value": "linear-gradient(135deg, rgba(225,240,252,1) 15%, rgba(233,223,252,1) 23%, rgba(238,225,253,1) 48%, rgba(246,232,229,1) 70%, rgba(243,226,230,1) 93%)",
         "type": "color"
       },
@@ -4627,7 +4627,7 @@
       }
     },
     "gradient": {
-      "refelaction": {
+      "bgColorOasis": {
         "value": "linear-gradient(135deg, rgba(46,38,44,1) 15%, rgba(43,35,50,1) 23%, rgba(38,32,49,1) 48%, rgba(36,26,49,1) 70%, rgba(30,27,48,1) 93%)",
         "type": "color"
       },
@@ -14137,7 +14137,12 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
+        "gradient.baseColorAlt1": "424f802d30b698151c7c95610f47f558d76d0766",
+        "gradient.baseColorAlt2": "a56f815e23464d55540527a01917228911079202",
+        "gradient.baseColorAlt3": "73540de75202f99e0bcd875c216b017ff62aa182",
+        "gradient.baseColorAlt4": "7bfb60cf60bbaad3be4be2e4b1da6612ea81c536",
+        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -14285,7 +14290,12 @@
         "gradient.baseColor2": "f72d2e49ed7d354603ecff3ecb2fff6679a014de",
         "gradient.baseColor3": "732a34a1e83f1cebc110c7b54348eed95a0b62d0",
         "gradient.baseColor4": "be83fd6c05ef94a6ab29bfd31ad5a3de4c20a1fd",
-        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7"
+        "gradient.baseColor5": "b0882a6e041fb3062e3c752168322e72da23b3c7",
+        "gradient.baseColorAlt1": "424f802d30b698151c7c95610f47f558d76d0766",
+        "gradient.baseColorAlt2": "a56f815e23464d55540527a01917228911079202",
+        "gradient.baseColorAlt3": "73540de75202f99e0bcd875c216b017ff62aa182",
+        "gradient.baseColorAlt4": "7bfb60cf60bbaad3be4be2e4b1da6612ea81c536",
+        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:27"
