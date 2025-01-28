@@ -3479,7 +3479,7 @@
         "description": "original: {neutral.neutral45}"
       },
       "secDefault": {
-        "value": "{bgColor.grey}",
+        "value": "{bgColor.grey03}",
         "type": "color"
       },
       "neutral": {
@@ -3641,16 +3641,16 @@
         "value": "{sem.red100}",
         "type": "color"
       },
-      "grey": {
-        "value": "#999999",
-        "type": "color"
-      },
-      "lightGrey": {
+      "grey01": {
         "value": "{neutral.neutral95}",
         "type": "color"
       },
-      "lightGreyAlt": {
+      "grey02": {
         "value": "#DFDFE8",
+        "type": "color"
+      },
+      "grey03": {
+        "value": "#999999",
         "type": "color"
       },
       "overlayDark20": {
@@ -4176,15 +4176,15 @@
         "value": "#B75C5C",
         "type": "color"
       },
-      "grey": {
+      "grey03": {
         "value": "{neutral.neutral45}",
         "type": "color"
       },
-      "lightGrey": {
+      "grey01": {
         "value": "{neutral.neutral20}",
         "type": "color"
       },
-      "lightGreyAlt": {
+      "grey02": {
         "value": "{neutral.neutral10}",
         "type": "color"
       },
@@ -14070,9 +14070,6 @@
         "bgColor.redDark": "8c2c8bb9c46e6009d3f2d0ab5e3ac34f968fe805",
         "bgColor.lightRed": "a399172189c366b1029411ff61f4f44143c8d171",
         "bgColor.lightRedAlt": "16a0b2fa39a524dd5792136ec8a4d807ac33305f",
-        "bgColor.grey": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
-        "bgColor.lightGrey": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
-        "bgColor.lightGreyAlt": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
         "bgColor.overlayDark80": "0360a302da58db6546428b13f23c452238b9497d",
         "bgColor.overlayLight04": "451586b6bfaf6d850bf1fef33da612114ec54c1b",
@@ -14172,7 +14169,10 @@
         "gradient.baseColorAlt4": "7bfb60cf60bbaad3be4be2e4b1da6612ea81c536",
         "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81",
         "bgColor.lightAlt": "b1bce560daaf01590491a3251b30cbfdcd4c5af9",
-        "strokeColor.grey04": "bc02e3b6dc3e2330fc929e9ce46c76d223591669"
+        "strokeColor.grey04": "bc02e3b6dc3e2330fc929e9ce46c76d223591669",
+        "bgColor.grey01": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
+        "bgColor.grey02": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
+        "bgColor.grey03": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -14261,9 +14261,6 @@
         "bgColor.redDark": "8c2c8bb9c46e6009d3f2d0ab5e3ac34f968fe805",
         "bgColor.lightRedAlt": "16a0b2fa39a524dd5792136ec8a4d807ac33305f",
         "bgColor.lightRed": "a399172189c366b1029411ff61f4f44143c8d171",
-        "bgColor.grey": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
-        "bgColor.lightGrey": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
-        "bgColor.lightGreyAlt": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
         "bgColor.overlayDark80": "0360a302da58db6546428b13f23c452238b9497d",
         "bgColor.overlayDark90": "723e98c35b0276afa5d83378ca9873ebe2ab871c",
@@ -14327,7 +14324,10 @@
         "gradient.baseColorAlt2": "a56f815e23464d55540527a01917228911079202",
         "gradient.baseColorAlt3": "73540de75202f99e0bcd875c216b017ff62aa182",
         "gradient.baseColorAlt4": "7bfb60cf60bbaad3be4be2e4b1da6612ea81c536",
-        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81"
+        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81",
+        "bgColor.grey01": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
+        "bgColor.grey02": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
+        "bgColor.grey03": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:27"
