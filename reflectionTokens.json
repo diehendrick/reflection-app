@@ -3884,11 +3884,6 @@
         "value": "{primary.primary55}",
         "type": "color"
       },
-      "primaryDark": {
-        "value": "#2F2F61",
-        "type": "color",
-        "description": "usage example in tag component"
-      },
       "lightPrimaryAlt": {
         "value": "{bgColor.lightPrimaryAlt}",
         "type": "color"
@@ -3904,6 +3899,11 @@
       "green": {
         "value": "{sem.green55}",
         "type": "color"
+      },
+      "grey04": {
+        "value": "{iconColor.grey01}",
+        "type": "color",
+        "description": "usage example in tag component"
       },
       "grey03": {
         "value": "{neutral.neutral65}",
@@ -4464,7 +4464,7 @@
         "value": "{neutral.neutral55}",
         "type": "color"
       },
-      "primaryDark": {
+      "grey04": {
         "value": "#2F2F61",
         "type": "color",
         "description": "usage example in tag component"
@@ -14170,7 +14170,9 @@
         "gradient.baseColorAlt2": "a56f815e23464d55540527a01917228911079202",
         "gradient.baseColorAlt3": "73540de75202f99e0bcd875c216b017ff62aa182",
         "gradient.baseColorAlt4": "7bfb60cf60bbaad3be4be2e4b1da6612ea81c536",
-        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81"
+        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81",
+        "bgColor.lightAlt": "b1bce560daaf01590491a3251b30cbfdcd4c5af9",
+        "strokeColor.grey04": "bc02e3b6dc3e2330fc929e9ce46c76d223591669"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -14238,6 +14240,7 @@
         "bgColor.dark": "9be99635ed17c66c6ed702f80630d0f84ffa0446",
         "bgColor.neutralDark": "19a2ce120bbc657c5a629f79f5f016edd49ee4ca",
         "bgColor.light": "ff0644c8cfbc864987e60fc0a00399227da5b7ac",
+        "bgColor.lightAlt": "b1bce560daaf01590491a3251b30cbfdcd4c5af9",
         "bgColor.neutral": "173c88a8a23d8462a896f3d617f716eb676a5b9c",
         "bgColor.placeholder": "e829b85ff08ed157a54352c3fc2857459fc4ed77",
         "bgColor.disabled": "61aad007ffb9691dacade638a8385788534a4aeb",
@@ -14303,6 +14306,7 @@
         "strokeColor.red": "fa6a129fea69c138ec71d6d0170ba9d24030438a",
         "strokeColor.orange": "c2755366a2042445e858f9d92699ca39753e85b0",
         "strokeColor.green": "57e9c37a6faff009e79b959d9f2bbdf91ae05515",
+        "strokeColor.grey04": "bc02e3b6dc3e2330fc929e9ce46c76d223591669",
         "strokeColor.grey03": "519c82b6f1588d9ecdc5609591984811b347fce0",
         "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
         "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
