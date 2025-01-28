@@ -3555,6 +3555,11 @@
         "value": "{neutral.neutral100}",
         "type": "color"
       },
+      "lightAlt": {
+        "value": "{neutral.neutral100}",
+        "type": "color",
+        "description": "i.e usage in tag components, in dark mode had different color"
+      },
       "neutral": {
         "value": "{neutral.neutral100}",
         "description": "this color is not effected when switch to dark. ",
@@ -3878,6 +3883,11 @@
       "primary": {
         "value": "{primary.primary55}",
         "type": "color"
+      },
+      "primaryDark": {
+        "value": "#2F2F61",
+        "type": "color",
+        "description": "usage example in tag component"
       },
       "lightPrimaryAlt": {
         "value": "{bgColor.lightPrimaryAlt}",
@@ -4321,6 +4331,19 @@
       "tertiary": {
         "value": "#1E4740",
         "type": "color"
+      },
+      "lightAlt": {
+        "value": "#232D62",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "lch"
+            }
+          }
+        }
       }
     },
     "iconColor": {
@@ -4440,6 +4463,11 @@
       "grey01": {
         "value": "{neutral.neutral55}",
         "type": "color"
+      },
+      "primaryDark": {
+        "value": "#2F2F61",
+        "type": "color",
+        "description": "usage example in tag component"
       }
     },
     "button": {
