@@ -3685,6 +3685,10 @@
         "value": "{transparentLight.opacity80}",
         "type": "color"
       },
+      "overlayPrimary24": {
+        "value": "{transparentPrimary.opacity24}",
+        "type": "color"
+      },
       "overlayPrimarytDark30": {
         "value": "#232D62",
         "type": "color",
@@ -4344,6 +4348,10 @@
             }
           }
         }
+      },
+      "overlayPrimary24": {
+        "value": "{transparentPrimary.opacity24}",
+        "type": "color"
       }
     },
     "iconColor": {
