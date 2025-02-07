@@ -4046,11 +4046,11 @@
         "description": "this color is not effected when switch to dark. "
       },
       "placeholder": {
-        "value": "{neutral.neutral55}",
+        "value": "{neutral.neutral65}",
         "type": "color"
       },
       "disabled": {
-        "value": "{neutral.neutral55}",
+        "value": "{neutral.neutral60}",
         "type": "color"
       },
       "primary": {
