@@ -4185,11 +4185,11 @@
         "type": "color"
       },
       "grey01": {
-        "value": "{neutral.neutral20}",
+        "value": "{neutral.neutral40}",
         "type": "color"
       },
       "grey02": {
-        "value": "{neutral.neutral10}",
+        "value": "{neutral.neutral35}",
         "type": "color"
       },
       "overlayDark20": {
