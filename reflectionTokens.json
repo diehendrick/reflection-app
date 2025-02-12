@@ -3597,6 +3597,10 @@
         "value": "{tertiary.tertiary90}",
         "type": "color"
       },
+      "neon": {
+        "value": "#E3FF64",
+        "type": "color"
+      },
       "tertiary": {
         "value": "#1E4740",
         "type": "color"
@@ -4351,6 +4355,10 @@
       },
       "overlayPrimary24": {
         "value": "{transparentPrimary.opacity24}",
+        "type": "color"
+      },
+      "neon": {
+        "value": "#E3FF64",
         "type": "color"
       }
     },
@@ -14078,6 +14086,9 @@
         "bgColor.redDark": "8c2c8bb9c46e6009d3f2d0ab5e3ac34f968fe805",
         "bgColor.lightRed": "a399172189c366b1029411ff61f4f44143c8d171",
         "bgColor.lightRedAlt": "16a0b2fa39a524dd5792136ec8a4d807ac33305f",
+        "bgColor.grey03": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
+        "bgColor.grey01": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
+        "bgColor.grey02": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
         "bgColor.overlayDark80": "0360a302da58db6546428b13f23c452238b9497d",
         "bgColor.overlayLight04": "451586b6bfaf6d850bf1fef33da612114ec54c1b",
@@ -14096,6 +14107,8 @@
         "bgColor.overlayLight84": "7ab8149104317d0afc1ed8f3aaf60426d9efaf95",
         "bgColor.overlayPrimarytDark50": "aabbbe229a871f81b00fddd60ede1363e3843286",
         "bgColor.tertiary": "5388b2cb1293db587bfd4e314c8f28b59c1174c6",
+        "bgColor.lightAlt": "b1bce560daaf01590491a3251b30cbfdcd4c5af9",
+        "bgColor.overlayPrimary24": "39699a5a983b0972f752efd9aef31f4ab8747ccb",
         "iconColor.default": "a9aa58749bd2edebc3ee949e7d280c61906f8006",
         "iconColor.defaultAlt": "3d9dc4af0cb409e60d6715e8a1b75dddcbfed029",
         "iconColor.dark": "f94cc5358275d0c2fc630c7f94a0da8d32b13d49",
@@ -14124,6 +14137,7 @@
         "strokeColor.grey02": "9d376b75820bd577155e37e9a3e8f93cdf9fe43c",
         "strokeColor.lightPrimaryAlt": "6cce614d27143837f0d6e10a6556f78be944109b",
         "strokeColor.grey01": "6e151b1080536f9cd92c5a42fda2024985e0e55e",
+        "strokeColor.grey04": "bc02e3b6dc3e2330fc929e9ce46c76d223591669",
         "button.primary.default": "f97566ddc3be60b711117b68d8282b319d7ed74e",
         "button.primary.dp-default": "011a371a6302e3848e961299f959719cd82cb0a2",
         "button.primary.hover": "bbef73deea99f571961f752169d5dd896a3794f4",
@@ -14176,11 +14190,7 @@
         "gradient.baseColorAlt3": "73540de75202f99e0bcd875c216b017ff62aa182",
         "gradient.baseColorAlt4": "7bfb60cf60bbaad3be4be2e4b1da6612ea81c536",
         "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81",
-        "bgColor.lightAlt": "b1bce560daaf01590491a3251b30cbfdcd4c5af9",
-        "strokeColor.grey04": "bc02e3b6dc3e2330fc929e9ce46c76d223591669",
-        "bgColor.grey01": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
-        "bgColor.grey02": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
-        "bgColor.grey03": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55"
+        "bgColor.neon": "e2d34ddaa4f7932271596bb868d416a5b060f54d"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:26"
@@ -14258,6 +14268,7 @@
         "bgColor.primaryDark": "c8120f03ff4b7c8c1735a34873a029d999912c15",
         "bgColor.primaryDarkAlt": "6e3b66ee9e5294c5f89ec0ef199c0971dd9571fe",
         "bgColor.lightTertiaryAlt": "b280501da7388b87122a95ea105f93eeb2b9f387",
+        "bgColor.neon": "e2d34ddaa4f7932271596bb868d416a5b060f54d",
         "bgColor.tertiary": "5388b2cb1293db587bfd4e314c8f28b59c1174c6",
         "bgColor.orange": "1860eba94e875a19dfd88f39c776703bafc56b3b",
         "bgColor.orangeDark": "6835e7b7a640311935865733cbbdfc008c62b773",
@@ -14269,6 +14280,9 @@
         "bgColor.redDark": "8c2c8bb9c46e6009d3f2d0ab5e3ac34f968fe805",
         "bgColor.lightRedAlt": "16a0b2fa39a524dd5792136ec8a4d807ac33305f",
         "bgColor.lightRed": "a399172189c366b1029411ff61f4f44143c8d171",
+        "bgColor.grey01": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
+        "bgColor.grey02": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
+        "bgColor.grey03": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55",
         "bgColor.overlayDark20": "b64c8b5c2e068caff0781d38cfaf5fb259f7a2dc",
         "bgColor.overlayDark80": "0360a302da58db6546428b13f23c452238b9497d",
         "bgColor.overlayDark90": "723e98c35b0276afa5d83378ca9873ebe2ab871c",
@@ -14277,6 +14291,7 @@
         "bgColor.overlayLight04": "451586b6bfaf6d850bf1fef33da612114ec54c1b",
         "bgColor.overlayLight60": "b88a362f9b51df86aa81e44dcbe2a8c104c18727",
         "bgColor.overlayLight80": "23e47e6ab637d7559b58a2a1bb635e9940912a9a",
+        "bgColor.overlayPrimary24": "39699a5a983b0972f752efd9aef31f4ab8747ccb",
         "bgColor.overlayPrimarytDark30": "792ce2016135e330e30bb633c858c7dcc3e66c3d",
         "bgColor.overlayPrimarytDark50": "aabbbe229a871f81b00fddd60ede1363e3843286",
         "bgColor.overlayLight20": "cc038586b908eac615f1f7702eb93b1d44f66417",
@@ -14332,10 +14347,7 @@
         "gradient.baseColorAlt2": "a56f815e23464d55540527a01917228911079202",
         "gradient.baseColorAlt3": "73540de75202f99e0bcd875c216b017ff62aa182",
         "gradient.baseColorAlt4": "7bfb60cf60bbaad3be4be2e4b1da6612ea81c536",
-        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81",
-        "bgColor.grey01": "5fbd4b779e435dc5723f5cc7ca6fc5b385c6a3e4",
-        "bgColor.grey02": "66e827d5392a5a62f9ec6d326f74ffba0d1631f9",
-        "bgColor.grey03": "c5d9d99f3e81f6e33761d08d2f8e43847a0e5d55"
+        "gradient.baseColorAlt5": "6e2ea5f2205d99d76a3a0d55cffaf9e94592fe81"
       },
       "$figmaCollectionId": "VariableCollectionId:2004:1842",
       "$figmaModeId": "2004:27"
