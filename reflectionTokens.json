@@ -3509,6 +3509,11 @@
         "description": "can be use for general or text link",
         "type": "color"
       },
+      "primaryAlt": {
+        "value": "#B1B3DF",
+        "type": "color",
+        "description": "can be use for light and dark"
+      },
       "primaryNeutral": {
         "value": "{primary.primary55}",
         "type": "color",
@@ -4090,6 +4095,11 @@
       "tertiaryDark": {
         "value": "#1E4740",
         "type": "color"
+      },
+      "primaryAlt": {
+        "value": "#B1B3DF",
+        "type": "color",
+        "description": "can be use for light and dark"
       }
     },
     "bgColor": {
