@@ -3698,6 +3698,10 @@
         "value": "{transparentPrimary.opacity24}",
         "type": "color"
       },
+      "overlayPrimary90": {
+        "value": "{transparentPrimary.opacity90}",
+        "type": "color"
+      },
       "overlayPrimarytDark30": {
         "value": "#232D62",
         "type": "color",
@@ -4369,6 +4373,10 @@
       },
       "neon": {
         "value": "#E3FF64",
+        "type": "color"
+      },
+      "overlayPrimary90": {
+        "value": "{transparentPrimary.opacity90}",
         "type": "color"
       }
     },
